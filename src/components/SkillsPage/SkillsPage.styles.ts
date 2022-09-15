@@ -36,5 +36,5 @@ export const SCSkillsCard = styled.div`
   gap: 6%;
   font-size: 2.3em;
   font-weight: 400;
-  background-color: #0a1233;
+  background-color: #080d25;
 `;
