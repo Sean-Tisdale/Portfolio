@@ -1,4 +1,3 @@
-import SkillsPage from "../SkillsPage";
 import { SCLeftBox, SCLandingPageWrapper } from "./LandingPage.styles";
 
 const LandingPage = () => {

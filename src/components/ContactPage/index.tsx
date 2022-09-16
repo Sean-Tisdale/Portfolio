@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   SCContactPageWrapper,
   SCContentWrapper,
@@ -6,9 +5,6 @@ import {
 } from "./ContactPage.styles";
 
 const ContactPage = () => {
-  const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState<string>("");
-  const [message, setMessage] = useState<string>("");
   return (
     <SCContactPageWrapper id="Contact">
       <h1>Contact Me</h1>
@@ -27,33 +23,22 @@ const ContactPage = () => {
             />
           </a>
         </SCContentWrapper>
-        <form name="contact" onSubmit={() => {}}>
+        <form name="contact" data-netlify="true">
           <label>
             Name
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              onChange={e => setName(e.target.value)}
-            />
+            <input type="text" name="Name" placeholder="Name" />
           </label>
           <label>
             Email
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              onChange={e => setEmail(e.target.value)}
-            />
+            <input type="email" name="Email" placeholder="Email" />
           </label>
           <label>
             Message
             <input
               type="text"
-              name="message"
+              name="Message"
               placeholder="Message"
               style={{ paddingBottom: "17vh" }}
-              onChange={e => setMessage(e.target.value)}
             />
           </label>
 
