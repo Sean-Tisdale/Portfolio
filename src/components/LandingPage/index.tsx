@@ -12,7 +12,7 @@ const LandingPage = () => {
             integrations experience. Well versed with responsive web design .
           </p>
         </SCLeftBox>
-        <img src="/images/headericon.png" />
+        <img src="/images/headericon.png" alt="Header Icon" />
       </SCLandingPageWrapper>
     </>
   );

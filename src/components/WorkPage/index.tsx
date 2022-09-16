@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { SCContentWrapper, SCWorkPageWrapper } from "./WorkPage.styles";
 
 const WorkPage = () => {
@@ -8,11 +7,15 @@ const WorkPage = () => {
       <SCContentWrapper>
         <span>
           I&#39;m currently employed at Complex Labs working as a Front End
-          developer.{" "}
+          developer.
         </span>
         <div>
-          <a href="https://www.complexlabs.co/" target="_blank">
-            <img src="/images/complexlogo.svg" />
+          <a
+            href="https://www.complexlabs.co/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/images/complexlogo.svg" alt="Complex Logo" />
           </a>
         </div>
       </SCContentWrapper>

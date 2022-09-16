@@ -10,16 +10,25 @@ const ContactPage = () => {
       <h1>Contact Me</h1>
       <SCInnerWrapper>
         <SCContentWrapper>
-          <a href="https://discordapp.com/users/8655" target="_blank">
-            <img src="/images/discord.svg" />
+          <a
+            href="https://discordapp.com/users/8655"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/images/discord.svg" alt="Discord" />
           </a>
-          <a href="mailto:sean@complexlabs.co" target="_blank">
-            <img src="/images/gmail.svg" />
+          <a href="mailto:sean@complexlabs.co" target="_blank" rel="noreferrer">
+            <img src="/images/gmail.svg" alt="Gmail" />
           </a>
-          <a href="https://github.com/Sean-Tisdale" target="_blank">
+          <a
+            href="https://github.com/Sean-Tisdale"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               style={{ backgroundColor: "#ffffff" }}
               src="/images/github.png"
+              alt="Github"
             />
           </a>
         </SCContentWrapper>
