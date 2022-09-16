@@ -50,9 +50,12 @@ const ContactPage = () => {
               style={{ paddingBottom: "17vh" }}
             />
           </label>
-
           <button type="submit">Submit</button>
-          <input type="hidden" name="contact" value="contact" />
+        </form>
+        <form name="contact" data-netlify="true" hidden>
+          <input type="text" name="Name" />
+          <input type="email" name="Email" />
+          <input type="text" name="Message" />
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>
