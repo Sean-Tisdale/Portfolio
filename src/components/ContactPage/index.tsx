@@ -52,6 +52,7 @@ const ContactPage = () => {
           </label>
 
           <button type="submit">Submit</button>
+          <input type="hidden" name="contact" value="contact" />
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>
