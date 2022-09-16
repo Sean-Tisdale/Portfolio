@@ -32,7 +32,7 @@ const ContactPage = () => {
             />
           </a>
         </SCContentWrapper>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" data-netlify="true">
           <label>
             Name
             <input type="text" name="Name" placeholder="Name" />
@@ -52,7 +52,7 @@ const ContactPage = () => {
           </label>
           <button type="submit">Submit</button>
         </form>
-        <form name="contact" method="POST" data-netlify="true" hidden>
+        <form name="contact" data-netlify="true" hidden>
           <input type="text" name="Name" />
           <input type="email" name="Email" />
           <input type="text" name="Message" />
