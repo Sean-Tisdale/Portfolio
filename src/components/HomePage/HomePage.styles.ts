@@ -12,4 +12,20 @@ export const SCAppWrapper = styled.div`
   overflow: hidden;
   min-height: 100vh;
   color: #ffffff;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 0.3em;
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
 `;

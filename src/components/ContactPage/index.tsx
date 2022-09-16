@@ -52,7 +52,12 @@ const ContactPage = () => {
           </label>
           <button type="submit">Submit</button>
         </form>
-        <form name="contact" data-netlify="true" hidden>
+        <form
+          name="contact"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          hidden
+        >
           <input type="text" name="Name" />
           <input type="email" name="Email" />
           <input type="text" name="Message" />
