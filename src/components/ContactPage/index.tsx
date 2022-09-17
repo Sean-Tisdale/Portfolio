@@ -67,7 +67,7 @@ const ContactPage = () => {
               />
             </a>
           </SCContentWrapper>
-          <form name="contact" onSubmit={handleSumbit}>
+          <form name="contact">
             <label>
               Name
               <input
@@ -103,7 +103,9 @@ const ContactPage = () => {
                 required
               />
             </label>
-            <button type="submit">Submit</button>
+            <button onClick={handleSumbit} type="submit">
+              Submit
+            </button>
           </form>
         </SCInnerWrapper>
       </SCMobileWrapper>
