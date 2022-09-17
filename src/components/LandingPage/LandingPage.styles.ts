@@ -12,7 +12,7 @@ export const SCLandingPageWrapper = styled.div`
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
   }
 
   @media only screen and (min-width: 600px) {
