@@ -8,22 +8,22 @@ const NavBar = () => {
   return (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
-        <span>
+        <span onClick={() => setDisplay(!display)}>
           <Link to="Home" smooth={true} duration={1000}>
             Home
           </Link>
         </span>
-        <span>
+        <span onClick={() => setDisplay(!display)}>
           <Link to="Work" smooth={true} duration={1000}>
             Work
           </Link>
         </span>
-        <span>
+        <span onClick={() => setDisplay(!display)}>
           <Link to="Skills" smooth={true} duration={1000}>
             Skills
           </Link>
         </span>
-        <span>
+        <span onClick={() => setDisplay(!display)}>
           <Link to="Contact" smooth={true} duration={1000}>
             Contact
           </Link>
