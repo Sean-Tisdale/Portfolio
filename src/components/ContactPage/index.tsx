@@ -2,7 +2,6 @@ import {
   SCContactPageWrapper,
   SCContentWrapper,
   SCInnerWrapper,
-  SCMobileWrapper,
 } from "./ContactPage.styles";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";

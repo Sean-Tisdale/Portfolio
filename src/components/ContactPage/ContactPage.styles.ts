@@ -4,6 +4,8 @@ export const SCContactPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   @media only screen and (max-width: 600px) {
+    height: 100%;
+    width: 100%;
   }
   h1 {
     text-align: center;
@@ -115,15 +117,5 @@ export const SCContentWrapper = styled.div`
       height: 35px;
       width: 35px;
     }
-  }
-`;
-
-export const SCMobileWrapper = styled.div`
-  height: 100%;
-  width: 100%;
-  border: 1px solid white;
-
-  @media only screen and (max-width: 600px) {
-    height: 100%;
   }
 `;
