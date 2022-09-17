@@ -123,6 +123,6 @@ export const SCMobileWrapper = styled.div`
   width: 100%;
 
   @media only screen and (max-width: 600px) {
-    height: 90%;
+    height: 95%;
   }
 `;
