@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const SCContactPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
-
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 15%;
+  }
   h1 {
     text-align: center;
     font-size: 4em;
@@ -96,6 +98,7 @@ export const SCContentWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     margin-top: 0%;
+    gap: 40%;
   }
   a {
     border-radius: 50%;
