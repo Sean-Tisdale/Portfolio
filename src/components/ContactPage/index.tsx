@@ -65,7 +65,7 @@ const ContactPage = () => {
             />
           </a>
         </SCContentWrapper>
-        <form name="contact" onSubmit={() => handleSumbit}>
+        <form name="contact" onSubmit={handleSumbit}>
           <label>
             Name
             <input
