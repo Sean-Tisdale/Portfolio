@@ -37,6 +37,9 @@ export const SCContactPageWrapper = styled.div`
     padding-bottom: 17vh;
     width: 100%;
     resize: none;
+    @media only screen and (max-width: 600px) {
+      padding-bottom: 10vh;
+    }
   }
 
   button {
@@ -73,7 +76,7 @@ export const SCInnerWrapper = styled.div`
     padding-left: 0%;
     margin-top: 20%;
     align-items: center;
-    margin-bottom: 10vh;
+    font-size: 0.8em;
   }
 
   @media only screen and (min-width: 600px) {
@@ -97,8 +100,9 @@ export const SCContentWrapper = styled.div`
   margin-top: -5%;
   @media only screen and (max-width: 600px) {
     flex-direction: row;
-    margin-top: 0%;
-    gap: 40%;
+    margin-top: -13%;
+    margin-bottom: -7%;
+    gap: 60px;
   }
   a {
     border-radius: 50%;
@@ -107,5 +111,18 @@ export const SCContentWrapper = styled.div`
     height: 55px;
     width: 55px;
     border-radius: 50%;
+    @media only screen and (max-width: 600px) {
+      height: 35px;
+      width: 35px;
+    }
+  }
+`;
+
+export const SCMobileWrapper = styled.div`
+  height: 100%;
+  width: 100%;
+
+  @media only screen and (max-width: 600px) {
+    height: 90%;
   }
 `;
