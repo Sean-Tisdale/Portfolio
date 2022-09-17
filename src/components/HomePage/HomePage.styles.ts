@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SCAppWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
   background-image: url("/images/backgroundimage.jpg");
   background-repeat: no-repeat;
@@ -16,7 +16,6 @@ export const SCAppWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     font-size: 0.7em;
     width: 100%;
-    flex-direction: column;
   }
 
   @media only screen and (min-width: 600px) {
