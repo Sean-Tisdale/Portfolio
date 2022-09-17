@@ -54,6 +54,9 @@ export const SCContentWrapper = styled.div`
   img {
     height: fit-content;
     width: 350px;
+    @media only screen and (max-width: 600px) {
+      width: 85vw;
+    }
   }
   a {
     height: fit-content;

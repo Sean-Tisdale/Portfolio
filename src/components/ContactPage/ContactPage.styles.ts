@@ -96,7 +96,6 @@ export const SCContentWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     margin-top: 0%;
-    gap: 50%;
   }
   a {
     border-radius: 50%;
