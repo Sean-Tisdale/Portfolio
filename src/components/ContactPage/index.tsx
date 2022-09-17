@@ -103,7 +103,11 @@ const ContactPage = () => {
                 required
               />
             </label>
-            <button onClick={handleSumbit} type="submit">
+            <button
+              onTouchStart={handleSumbit}
+              onClick={handleSumbit}
+              type="submit"
+            >
               Submit
             </button>
           </form>
