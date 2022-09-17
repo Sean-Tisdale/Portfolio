@@ -9,7 +9,7 @@ import {
 const SkillsPage = () => {
   return (
     <SCSkillsPageWrapper id="Skills">
-      <h1>Skills &#38; Technologies</h1>
+      <h1>Tools &#38; Technologies</h1>
       <SCCardWrapper>
         {SkillsData?.map((data: any) => (
           <SCSkillsCard key={data?.key}>

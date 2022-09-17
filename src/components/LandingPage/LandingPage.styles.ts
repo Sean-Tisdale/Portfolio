@@ -7,11 +7,45 @@ export const SCLandingPageWrapper = styled.div`
   height: 100vh;
   width: 100%;
 
+  @media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
   img {
     height: 400px;
     width: 400px;
     border-radius: 75px;
     margin-left: 13%;
+    @media only screen and (max-width: 600px) {
+      height: 320px;
+      width: 320px;
+      border-radius: 50px;
+      margin: auto;
+    }
+
+    @media only screen and (min-width: 600px) {
+    }
+
+    @media only screen and (min-width: 768px) {
+    }
+
+    @media only screen and (min-width: 992px) {
+    }
+
+    @media only screen and (min-width: 1200px) {
+    }
   }
 `;
 
@@ -23,6 +57,11 @@ export const SCLeftBox = styled.div`
   margin-left: 5%;
   width: 43%;
   font-weight: 600;
+  @media only screen and (max-width: 600px) {
+    width: 95%;
+    padding-top: 10%;
+    margin: auto;
+  }
   span {
     font-size: 0.5em;
     margin-top: 6%;

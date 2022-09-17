@@ -12,6 +12,11 @@ export const SCContactPageWrapper = styled.div`
   form {
     text-align: left;
     width: 30%;
+    @media only screen and (max-width: 600px) {
+      width: 90%;
+      margin-top: 10%;
+      overflow: hidden;
+    }
   }
   input {
     width: 100%;
@@ -26,6 +31,13 @@ export const SCContactPageWrapper = styled.div`
     gap: 1.5vh;
     margin-bottom: 3vh;
   }
+
+  textarea {
+    padding-bottom: 17vh;
+    width: 100%;
+    resize: none;
+  }
+
   button {
     padding: 1%;
     width: 40%;
@@ -37,6 +49,10 @@ export const SCContactPageWrapper = styled.div`
     font-size: 1.6em;
     border: 3px solid grey;
     font-weight: 600;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      padding: 4%;
+    }
     &:hover {
       box-shadow: rgba(180, 180, 180, 0.5) 0px 5px 15px;
     }
@@ -51,6 +67,24 @@ export const SCInnerWrapper = styled.div`
   flex-direction: row;
   gap: 17%;
   justify-content: center;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    padding-left: 0%;
+    margin-top: 20%;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
 `;
 
 export const SCContentWrapper = styled.div`
@@ -59,15 +93,17 @@ export const SCContentWrapper = styled.div`
   gap: 20%;
   justify-content: center;
   margin-top: -5%;
+  @media only screen and (max-width: 600px) {
+    flex-direction: row;
+    margin-top: 0%;
+    gap: 50%;
+  }
   a {
-    color: #ffffff;
-    cursor: default;
-    margin-bottom: 5%;
+    border-radius: 50%;
   }
   img {
     height: 55px;
     width: 55px;
     border-radius: 50%;
-    cursor: pointer;
   }
 `;

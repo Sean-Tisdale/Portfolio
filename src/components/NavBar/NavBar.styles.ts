@@ -25,6 +25,21 @@ export const SCNavDisplay = styled.div`
   z-index: ${(props: INavBarProps) => (props.display ? "9" : "-9")};
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
+  @media only screen and (max-width: 600px) {
+    margin-left: -23%;
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
   span {
     padding: 5%;
     cursor: pointer;

@@ -21,10 +21,31 @@ export const SCContentWrapper = styled.div`
   height: 80%;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (min-width: 992px) {
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
   span {
     margin-top: -30%;
     font-size: 2em;
     width: 40%;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      padding-left: 10%;
+    }
   }
   div {
     margin-top: -30%;
