@@ -17,7 +17,8 @@ const ContactPage = () => {
     email: userEmail,
   };
 
-  const handleSumbit = () => {
+  const handleSumbit = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
     emailjs.send(
       "contact_service",
       "contact_form",
@@ -64,7 +65,7 @@ const ContactPage = () => {
             />
           </a>
         </SCContentWrapper>
-        <form name="contact" onSubmit={() => handleSumbit()}>
+        <form name="contact" onSubmit={() => handleSumbit}>
           <label>
             Name
             <input

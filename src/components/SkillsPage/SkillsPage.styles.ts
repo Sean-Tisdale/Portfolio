@@ -8,6 +8,9 @@ export const SCSkillsPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   @media only screen and (max-width: 600px) {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
   }
 
   @media only screen and (min-width: 600px) {

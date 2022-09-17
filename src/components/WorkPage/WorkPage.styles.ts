@@ -8,6 +8,11 @@ export const SCWorkPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
 
+  @media only screen and (max-width: 600px) {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+  }
   h1 {
     font-size: 4em;
     text-shadow: 6px 6px 10px rgb(70, 70, 70);
