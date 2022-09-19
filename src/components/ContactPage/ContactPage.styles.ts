@@ -4,9 +4,9 @@ export const SCContactPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   @media only screen and (max-width: 600px) {
-    height: 90vh;
+    height: 100%;
     width: 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-bottom: 8%;
   }
   h1 {
@@ -119,9 +119,5 @@ export const SCContentWrapper = styled.div`
     height: 55px;
     width: 55px;
     border-radius: 50%;
-    @media only screen and (max-width: 600px) {
-      // height: 45px;
-      // width: 45px;
-    }
   }
 `;
