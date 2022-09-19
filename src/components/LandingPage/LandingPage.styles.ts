@@ -68,7 +68,7 @@ export const SCLeftBox = styled.div`
 
   div {
     @media only screen and (max-width: 600px) {
-      font-size: 5em;
+      font-size: 0.8em;
     }
   }
   span {
