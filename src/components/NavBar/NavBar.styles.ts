@@ -9,6 +9,9 @@ export const SCNavBarWrapper = styled.div`
   z-index: 1;
   position: fixed;
   overflow: visible;
+  @media only screen and (max-width: 600px) {
+    margin: 4%;
+  }
 `;
 
 export const SCNavDisplay = styled.div`
@@ -26,8 +29,11 @@ export const SCNavDisplay = styled.div`
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
   @media only screen and (max-width: 600px) {
-    margin-left: -25%;
-    font-size: 1.2em;
+    margin-left: -34%;
+    margin-top: 1.5%;
+    font-size: 2.6em;
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   @media only screen and (min-width: 600px) {
@@ -44,6 +50,18 @@ export const SCNavDisplay = styled.div`
   span {
     padding: 5%;
     cursor: pointer;
+
+    @media only screen and (max-width: 600px) {
+      background-color: rgba(0, 1, 20, 1);
+      color: rgba(250, 250, 250, 1);
+      text-align: center;
+      padding: 9%;
+      &:hover {
+        background-color: rgba(0, 1, 20, 0.5);
+        text-shadow: 2px 2px 4px #000000;
+      }
+    }
+
     &:hover {
       color: rgba(255, 255, 255, 0.7);
       text-shadow: 2px 2px 4px #000000;

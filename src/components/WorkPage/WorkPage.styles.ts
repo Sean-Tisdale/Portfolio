@@ -11,6 +11,7 @@ export const SCWorkPageWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     height: 100vh;
     width: 100%;
+    justify-content: center;
     padding-bottom: 15%;
   }
   h1 {
@@ -61,10 +62,7 @@ export const SCContentWrapper = styled.div`
     width: 350px;
     @media only screen and (max-width: 600px) {
       width: 85vw;
+      height: 30vh;
     }
-  }
-  a {
-    height: fit-content;
-    width: fit-content;
   }
 `;
