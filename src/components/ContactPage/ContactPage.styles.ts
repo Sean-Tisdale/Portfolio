@@ -12,6 +12,9 @@ export const SCContactPageWrapper = styled.div`
     text-align: center;
     font-size: 4em;
     text-shadow: 6px 6px 10px rgb(70, 70, 70);
+    @media only screen and (max-width: 600px) {
+      padding-bottom: 10%;
+    }
   }
   form {
     text-align: left;

@@ -29,7 +29,7 @@ export const SCNavDisplay = styled.div`
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
   @media only screen and (max-width: 600px) {
-    margin-left: -25%;
+    margin-left: -30%;
     font-size: 2.2em;
   }
 
@@ -47,6 +47,16 @@ export const SCNavDisplay = styled.div`
   span {
     padding: 5%;
     cursor: pointer;
+
+    @media only screen and (max-width: 600px) {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000000;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.6);
+        text-shadow: 2px 2px 4px #000000;
+      }
+    }
+
     &:hover {
       color: rgba(255, 255, 255, 0.7);
       text-shadow: 2px 2px 4px #000000;

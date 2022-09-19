@@ -32,8 +32,8 @@ export const SCLandingPageWrapper = styled.div`
     border-radius: 75px;
     margin-left: 13%;
     @media only screen and (max-width: 600px) {
-      height: 250px;
-      width: 250px;
+      height: 275px;
+      width: 30px;
       border-radius: 50px;
       margin: auto;
     }
@@ -62,7 +62,8 @@ export const SCLeftBox = styled.div`
   font-weight: 600;
   @media only screen and (max-width: 600px) {
     width: 95%;
-    padding-top: 10%;
+    padding-top: 15%;
+    padding-left: 5%;
     margin: auto;
   }
 
