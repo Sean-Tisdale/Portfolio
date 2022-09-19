@@ -1,35 +1,28 @@
 import {
-  SCButton,
   SCContactPageWrapper,
   SCContentWrapper,
   SCInnerWrapper,
 } from "./ContactPage.styles";
 import emailjs from "@emailjs/browser";
-import { useState } from "react";
+import { useForm } from "react-hook-form";
 
 const ContactPage = () => {
-  const [userName, setUserName] = useState<string>("");
-  const [userMessage, setUserMessage] = useState<string>("");
-  const [userEmail, setUserEmail] = useState<string>("");
+  const { register, handleSubmit } = useForm({
+    defaultValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
+  });
 
-  const emailBody = {
-    name: userName,
-    message: userMessage,
-    email: userEmail,
-  };
-
-  const handleSumbit = (e: any) => {
-    e.preventDefault();
+  const onSubmit = (data: Record<string, unknown> | undefined) => {
     emailjs.send(
       "contact_service",
       "contact_form",
-      emailBody,
+      data,
       process.env.REACT_APP_EMAILJS_KEY as string
     );
     alert("Message Sent!");
-    setUserName("");
-    setUserEmail("");
-    setUserMessage("");
   };
 
   return (
@@ -66,17 +59,13 @@ const ContactPage = () => {
             />
           </a>
         </SCContentWrapper>
-        <form name="contact" action={`${handleSumbit}`} onSubmit={handleSumbit}>
+        <form onSubmit={handleSubmit(onSubmit)}>
           <label>
             Name
             <input
               type="text"
               placeholder="Name"
-              value={userName}
-              onChange={e => {
-                setUserName(e.target.value);
-              }}
-              required
+              {...register("name", { required: true })}
             />
           </label>
           <label>
@@ -84,22 +73,21 @@ const ContactPage = () => {
             <input
               type="email"
               placeholder="Email"
-              value={userEmail}
-              onChange={e => {
-                setUserEmail(e.target.value);
-              }}
-              required
+              {...register("email", {
+                required: "Email is required",
+                pattern: {
+                  value:
+                    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                  message: "Please enter a valid email",
+                },
+              })}
             />
           </label>
           <label>
             Message
             <textarea
               placeholder="Message"
-              value={userMessage}
-              onChange={e => {
-                setUserMessage(e.target.value);
-              }}
-              required
+              {...register("message", { required: true })}
             />
           </label>
           <button type="submit">Submit</button>
