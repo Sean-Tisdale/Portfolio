@@ -4,10 +4,10 @@ export const SCContactPageWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   @media only screen and (max-width: 600px) {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
   h1 {
     text-align: center;
