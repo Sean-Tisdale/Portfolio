@@ -1,4 +1,5 @@
 import {
+  SCButton,
   SCContactPageWrapper,
   SCContentWrapper,
   SCInnerWrapper,
@@ -90,7 +91,7 @@ const ContactPage = () => {
               {...register("message", { required: true })}
             />
           </label>
-          <button type="submit">Submit</button>
+          <SCButton type="submit" />
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>

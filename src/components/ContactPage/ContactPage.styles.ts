@@ -72,6 +72,28 @@ export const SCContactPageWrapper = styled.div`
   }
 `;
 
+export const SCButton = styled.input`
+  padding: 1%;
+  width: 40%;
+  margin-top: 4%;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.6em;
+  border: 3px solid grey;
+  font-weight: 600;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    padding: 4%;
+    font-size: 2.2em;
+    margin-top: 2%;
+  }
+  &:hover {
+    box-shadow: rgba(180, 180, 180, 0.5) 0px 5px 15px;
+  }
+`;
+
 export const SCInnerWrapper = styled.div`
   width: 100%;
   margin-top: 6%;
