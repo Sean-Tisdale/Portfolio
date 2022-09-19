@@ -48,7 +48,7 @@ export const SCCardWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     width: 100%;
     height: 80vh;
-    // margin-bottom: 2%;
+    padding-bottom: 10%;
     flex-wrap: nowrap;
     //justify-content: flex-start;
     border: 1px solid red;

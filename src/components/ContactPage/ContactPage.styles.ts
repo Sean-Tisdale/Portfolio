@@ -7,7 +7,7 @@ export const SCContactPageWrapper = styled.div`
     height: 100%;
     width: 100%;
     padding-top: 5%;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
   }
   h1 {
     text-align: center;
