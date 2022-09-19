@@ -52,13 +52,12 @@ export const SCNavDisplay = styled.div`
     cursor: pointer;
 
     @media only screen and (max-width: 600px) {
-      background-color: rgba(11, 18, 50, 1);
-      // color: #080d25;
+      background-color: rgba(14, 22, 62, 1);
       color: rgba(250, 250, 250, 1);
       text-align: center;
       padding: 9%;
       &:hover {
-        background-color: rgba(11, 18, 50, 0.5);
+        background-color: rgba(14, 22, 62, 0.5);
         text-shadow: 2px 2px 4px #000000;
       }
     }
