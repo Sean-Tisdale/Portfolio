@@ -62,7 +62,7 @@ export const SCContactPageWrapper = styled.div`
     @media only screen and (max-width: 600px) {
       width: 100%;
       padding: 4%;
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
     &:hover {
       box-shadow: rgba(180, 180, 180, 0.5) 0px 5px 15px;
