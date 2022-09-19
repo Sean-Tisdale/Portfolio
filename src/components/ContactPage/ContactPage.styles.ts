@@ -120,8 +120,8 @@ export const SCContentWrapper = styled.div`
     width: 55px;
     border-radius: 50%;
     @media only screen and (max-width: 600px) {
-      height: 45px;
-      width: 45px;
+      // height: 45px;
+      // width: 45px;
     }
   }
 `;
