@@ -17,12 +17,7 @@ const ContactPage = () => {
   });
 
   const onSubmit = (data: Record<string, unknown> | undefined) => {
-    emailjs.send(
-      "contact_service",
-      "contact_form",
-      data,
-      process.env.REACT_APP_EMAILJS_KEY as string
-    );
+    emailjs.send("contact_service", "contact_form", data, "ay6qfMNEnmRZI_3xe");
     alert("Message Sent!");
   };
 
