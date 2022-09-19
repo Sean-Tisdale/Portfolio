@@ -10,7 +10,6 @@ export const SCSkillsPageWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     height: 100%;
     width: 100%;
-    margin-bottom: 8%;
     border: 2px solid white;
   }
 
@@ -31,6 +30,7 @@ export const SCSkillsPageWrapper = styled.div`
     text-shadow: 6px 6px 10px rgb(70, 70, 70);
     @media only screen and (max-width: 600px) {
       padding-left: 15%;
+      margin-top: -3%;
     }
   }
 `;
