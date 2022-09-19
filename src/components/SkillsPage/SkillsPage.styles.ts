@@ -10,7 +10,8 @@ export const SCSkillsPageWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     height: 100%;
     width: 100%;
-    //padding-bottom: 8%;
+    padding-bottom: 8%;
+    border: 2px solid white;
   }
 
   @media only screen and (min-width: 600px) {
@@ -46,6 +47,7 @@ export const SCCardWrapper = styled.div`
     width: 100%;
     height: 100%;
     flex-wrap: nowrap;
+    border: 1px solid red;
   }
 
   @media only screen and (min-width: 600px) {
@@ -77,5 +79,6 @@ export const SCSkillsCard = styled.div`
   @media only screen and (max-width: 600px) {
     width: 90%;
     min-height: 20%;
+    border: 1px solid white;
   }
 `;

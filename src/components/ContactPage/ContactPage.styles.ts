@@ -13,7 +13,7 @@ export const SCContactPageWrapper = styled.div`
     font-size: 4em;
     text-shadow: 6px 6px 10px rgb(70, 70, 70);
     @media only screen and (max-width: 600px) {
-      padding-bottom: 10%;
+      padding-bottom: 5%;
     }
   }
   form {
@@ -107,7 +107,7 @@ export const SCContentWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     margin-top: -13%;
-    margin-bottom: -7%;
+    margin-bottom: -5%;
     gap: 60px;
   }
   a {
@@ -118,8 +118,8 @@ export const SCContentWrapper = styled.div`
     width: 55px;
     border-radius: 50%;
     @media only screen and (max-width: 600px) {
-      height: 35px;
-      width: 35px;
+      height: 40px;
+      width: 40px;
     }
   }
 `;
