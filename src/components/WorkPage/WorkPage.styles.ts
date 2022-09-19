@@ -63,6 +63,7 @@ export const SCContentWrapper = styled.div`
     border: 1px solid red;
     @media only screen and (max-width: 600px) {
       width: 85vw;
+      height: 25vh;
     }
   }
   a {
