@@ -1,14 +1,14 @@
 import {
-  SCButton,
   SCContactPageWrapper,
   SCContentWrapper,
   SCInnerWrapper,
 } from "./ContactPage.styles";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
+import { useEffect } from "react";
 
 const ContactPage = () => {
-  const { register, handleSubmit } = useForm({
+  const { register, handleSubmit, reset, formState } = useForm({
     defaultValues: {
       name: "",
       email: "",
@@ -20,6 +20,15 @@ const ContactPage = () => {
     emailjs.send("contact_service", "contact_form", data, "ay6qfMNEnmRZI_3xe");
     alert("Message Sent!");
   };
+  useEffect(() => {
+    if (formState.isSubmitSuccessful) {
+      reset({
+        name: "",
+        email: "",
+        message: "",
+      });
+    }
+  }, [formState, reset]);
 
   return (
     <SCContactPageWrapper id="Contact">
@@ -86,7 +95,7 @@ const ContactPage = () => {
               {...register("message", { required: true })}
             />
           </label>
-          <SCButton type="submit" />
+          <button type="submit">Submit</button>
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>
