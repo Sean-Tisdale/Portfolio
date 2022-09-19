@@ -30,9 +30,10 @@ export const SCNavDisplay = styled.div`
   transition: all 0.5s ease-in-out;
   @media only screen and (max-width: 600px) {
     margin-left: -28%;
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 2.2em;
-    border-radius: 10px;
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   @media only screen and (min-width: 600px) {
@@ -53,6 +54,7 @@ export const SCNavDisplay = styled.div`
     @media only screen and (max-width: 600px) {
       background-color: rgba(255, 255, 255, 0.9);
       color: #000000;
+      text-align: center;
       &:hover {
         background-color: rgba(255, 255, 255, 0.5);
         text-shadow: 2px 2px 4px #000000;
