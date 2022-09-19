@@ -62,7 +62,7 @@ export const SCContactPageWrapper = styled.div`
     @media only screen and (max-width: 600px) {
       width: 100%;
       padding: 4%;
-      font-size: 1.8em;
+      font-size: 2.2em;
     }
     &:hover {
       box-shadow: rgba(180, 180, 180, 0.5) 0px 5px 15px;
@@ -119,8 +119,8 @@ export const SCContentWrapper = styled.div`
     width: 55px;
     border-radius: 50%;
     @media only screen and (max-width: 600px) {
-      height: 40px;
-      width: 40px;
+      height: 45px;
+      width: 45px;
     }
   }
 `;

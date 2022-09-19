@@ -54,8 +54,8 @@ export const SCNavDisplay = styled.div`
     @media only screen and (max-width: 600px) {
       background-color: rgba(255, 255, 255, 0.95);
       color: #080d25;
-      text-align: left;
-      padding: 7%;
+      text-align: right;
+      padding: 9%;
       &:hover {
         background-color: rgba(255, 255, 255, 0.5);
         text-shadow: 2px 2px 4px #000000;
