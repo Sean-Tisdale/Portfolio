@@ -102,7 +102,7 @@ const ContactPage = () => {
               required
             />
           </label>
-          <SCButton type="submit">Submit</SCButton>
+          <SCButton placeholder="Submit" type="submit" />
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>
