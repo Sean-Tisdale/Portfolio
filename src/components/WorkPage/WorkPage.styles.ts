@@ -12,6 +12,7 @@ export const SCWorkPageWrapper = styled.div`
     height: 100vh;
     width: 100%;
     justify-content: center;
+    padding-bottom: 15%;
   }
   h1 {
     font-size: 4em;
