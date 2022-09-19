@@ -6,6 +6,7 @@ export const SCContactPageWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     height: 100%;
     width: 100%;
+    padding-top: 8%;
     padding-bottom: 8%;
   }
   h1 {
