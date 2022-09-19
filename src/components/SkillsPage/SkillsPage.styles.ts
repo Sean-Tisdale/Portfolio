@@ -12,7 +12,6 @@ export const SCSkillsPageWrapper = styled.div`
     height: 100%;
     padding-top: 5%;
     padding-bottom: 10%;
-    border: 2px solid white;
   }
 
   @media only screen and (min-width: 600px) {
@@ -51,8 +50,6 @@ export const SCCardWrapper = styled.div`
     padding-bottom: 10%;
     margin-top: -3%;
     flex-wrap: nowrap;
-    //justify-content: flex-start;
-    border: 1px solid red;
   }
 
   @media only screen and (min-width: 600px) {
