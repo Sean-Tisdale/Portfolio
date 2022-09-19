@@ -64,6 +64,7 @@ export const SCContactPageWrapper = styled.div`
       width: 100%;
       padding: 4%;
       font-size: 2.2em;
+      margin-top: 2%;
     }
     &:hover {
       box-shadow: rgba(180, 180, 180, 0.5) 0px 5px 15px;
