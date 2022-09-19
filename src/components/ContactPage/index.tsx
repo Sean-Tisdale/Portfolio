@@ -101,7 +101,9 @@ const ContactPage = () => {
               required
             />
           </label>
-          <button type="submit">Submit</button>
+          <button onTouchEnd={handleSumbit} type="submit">
+            Submit
+          </button>
         </form>
       </SCInnerWrapper>
     </SCContactPageWrapper>

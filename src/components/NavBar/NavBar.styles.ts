@@ -29,7 +29,7 @@ export const SCNavDisplay = styled.div`
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
   @media only screen and (max-width: 600px) {
-    margin-left: -20%;
+    margin-left: -25%;
     font-size: 2.2em;
   }
 
