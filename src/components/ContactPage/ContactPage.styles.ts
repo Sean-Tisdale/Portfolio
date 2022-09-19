@@ -72,7 +72,7 @@ export const SCContactPageWrapper = styled.div`
   }
 `;
 
-export const SCButton = styled.input`
+export const SCButton = styled.button`
   padding: 1%;
   width: 40%;
   margin-top: 4%;
