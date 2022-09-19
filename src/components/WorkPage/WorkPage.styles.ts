@@ -55,20 +55,13 @@ export const SCContentWrapper = styled.div`
   div {
     margin-top: -30%;
     width: min-content;
-    border: 1px solid white;
   }
   img {
     height: fit-content;
     width: 350px;
-    border: 1px solid red;
     @media only screen and (max-width: 600px) {
       width: 85vw;
-      height: 25vh;
+      height: 30vh;
     }
-  }
-  a {
-    // height: fit-content;
-    //width: fit-content;
-    border: 1px solid blue;
   }
 `;
