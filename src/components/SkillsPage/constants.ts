@@ -4,5 +4,5 @@ export const SkillsData = [
   { key: "3", skill: "CSS" },
   { key: "4", skill: "Next.js" },
   { key: "5", skill: "Redux" },
-  { key: "6", skill: "RWD" },
+  { key: "6", skill: "Web3 React" },
 ];

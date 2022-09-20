@@ -34,7 +34,7 @@ export const SCNavDisplay = styled.div`
     font-size: 2.6em;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: #730073 0px 5px 15px;
+    box-shadow: #730073 0px 5px 10px;
 
     //border: 1px solid #730073;
   }

@@ -10,7 +10,7 @@ export const SCSkillsPageWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     width: 100%;
     height: 100%;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-bottom: 10%;
   }
 
@@ -46,7 +46,7 @@ export const SCCardWrapper = styled.div`
   height: 75%;
   @media only screen and (max-width: 600px) {
     width: 100%;
-    height: 65vh;
+    height: 66vh;
     padding-bottom: 10%;
     margin-top: -3%;
     flex-wrap: nowrap;
