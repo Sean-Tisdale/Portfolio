@@ -77,7 +77,7 @@ export const SCSkillsCard = styled.div`
   gap: 6%;
   font-size: 2.3em;
   font-weight: 400;
-  background-color: #080d25;
+  background-color: #060a52;
   @media only screen and (max-width: 600px) {
     width: 90%;
   }
