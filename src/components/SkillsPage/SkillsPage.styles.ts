@@ -28,7 +28,6 @@ export const SCSkillsPageWrapper = styled.div`
 
   h1 {
     font-size: 4em;
-    text-shadow: 6px 6px 10px rgb(70, 70, 70);
     @media only screen and (max-width: 600px) {
       padding-left: 15%;
       margin-top: -2%;
@@ -77,7 +76,7 @@ export const SCSkillsCard = styled.div`
   gap: 6%;
   font-size: 2.3em;
   font-weight: 400;
-  background-color: #060a52;
+  background-color: rgb(0, 3, 51);
   @media only screen and (max-width: 600px) {
     width: 90%;
   }

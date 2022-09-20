@@ -34,9 +34,7 @@ export const SCNavDisplay = styled.div`
     font-size: 2.6em;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: #730073 0px 5px 10px;
-
-    //border: 1px solid #730073;
+    box-shadow: #730073 0px 3px 10px;
   }
 
   @media only screen and (min-width: 600px) {
@@ -56,7 +54,6 @@ export const SCNavDisplay = styled.div`
 
     @media only screen and (max-width: 600px) {
       background-color: rgba(0, 0, 0, 1);
-      //background-color: rgba(0, 1, 20, 1);
       color: rgba(250, 250, 250, 1);
       text-align: center;
       padding: 9%;

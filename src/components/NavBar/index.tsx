@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [display, setDisplay] = useState<boolean>(false);
+
   return (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>

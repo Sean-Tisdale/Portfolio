@@ -16,7 +16,6 @@ export const SCWorkPageWrapper = styled.div`
   }
   h1 {
     font-size: 4em;
-    text-shadow: 6px 6px 10px rgb(70, 70, 70);
   }
 `;
 
