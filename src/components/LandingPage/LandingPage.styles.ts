@@ -90,5 +90,8 @@ export const SCLeftBox = styled.div`
     font-size: 0.3em;
     font-weight: 400;
     margin-top: 5%;
+    @media only screen and (max-width: 600px) {
+      width: 95%;
+    }
   }
 `;
