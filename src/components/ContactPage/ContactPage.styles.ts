@@ -51,9 +51,9 @@ export const SCContactPageWrapper = styled.div`
 
   button {
     padding: 1%;
-    width: 40%;
+    width: 45%;
     margin-top: 4%;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
