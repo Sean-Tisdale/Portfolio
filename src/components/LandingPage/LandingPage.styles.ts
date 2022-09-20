@@ -67,6 +67,9 @@ export const SCLeftBox = styled.div`
     margin-top: -3%;
     margin: auto;
   }
+  a {
+    color: #ffffff;
+  }
 
   div {
     @media only screen and (max-width: 600px) {
