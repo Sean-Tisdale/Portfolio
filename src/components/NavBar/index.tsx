@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react";
+import { useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
 import { Link } from "react-scroll";
