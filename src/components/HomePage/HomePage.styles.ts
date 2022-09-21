@@ -6,7 +6,7 @@ export const SCAppWrapper = styled.div`
   align-items: flex-end;
   background-image: url("/images/backgroundimage.svg");
   background-repeat: repeat;
-  background-size: 30%;
+  background-size: 20%;
   height: 100%;
   width: 100vw;
   overflow: hidden;
@@ -17,7 +17,7 @@ export const SCAppWrapper = styled.div`
     font-size: 0.7em;
     width: 100%;
     min-height: 90vh;
-    background-size: 70%;
+    //background-size: 70%;
   }
 
   @media only screen and (min-width: 600px) {
