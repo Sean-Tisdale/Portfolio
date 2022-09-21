@@ -16,8 +16,8 @@ export const SCAppWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     font-size: 0.7em;
     width: 100%;
-    min-height: 85vh;
-    background-size: 80%;
+    min-height: 90vh;
+    background-size: 70%;
   }
 
   @media only screen and (min-width: 600px) {

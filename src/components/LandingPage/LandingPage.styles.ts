@@ -36,7 +36,8 @@ export const SCLandingPageWrapper = styled.div`
       height: 400px;
       width: 400px;
       border-radius: 50%;
-      margin-top: -10%;
+      padding-top: -20%;
+      border: 1px solid white;
       margin: auto;
     }
 
