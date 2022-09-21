@@ -57,7 +57,7 @@ export const SCContactPageWrapper = styled.div`
     border-radius: 8px;
     cursor: pointer;
     font-size: 1.6em;
-    border: 3px solid grey;
+    border: 4px solid rgba(115, 0, 115, 0.7);
     font-weight: 600;
     @media only screen and (max-width: 600px) {
       width: 100%;

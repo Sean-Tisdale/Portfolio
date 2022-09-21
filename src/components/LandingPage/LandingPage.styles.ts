@@ -27,10 +27,11 @@ export const SCLandingPageWrapper = styled.div`
   @media only screen and (min-width: 1200px) {
   }
   img {
-    height: 400px;
-    width: 400px;
-    border-radius: 75px;
-    margin-left: 13%;
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-top: 3%;
     @media only screen and (max-width: 600px) {
       height: 275px;
       width: 300px;
@@ -56,7 +57,7 @@ export const SCLeftBox = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 6em;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
   margin-left: 5%;
   width: 43%;
   font-weight: 600;
@@ -79,17 +80,17 @@ export const SCLeftBox = styled.div`
   }
   span {
     font-size: 0.5em;
-    margin-top: 6%;
-    padding-bottom: 2%;
+    margin-top: 5%;
+    padding-bottom: 3%;
     overflow: visible;
     width: fit-content;
-    padding-right: 5%;
-    border-bottom: 1px solid #ffffff;
+    padding-right: 6%;
+    border-bottom: 2px solid rgba(115, 0, 115, 1);
   }
   p {
     font-size: 0.3em;
     font-weight: 400;
-    margin-top: 5%;
+    margin-top: 4%;
     @media only screen and (max-width: 600px) {
       width: 95%;
     }

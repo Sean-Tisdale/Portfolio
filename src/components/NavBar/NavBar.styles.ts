@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 interface INavBarProps {
@@ -11,6 +12,29 @@ export const SCNavBarWrapper = styled.div`
   overflow: visible;
   @media only screen and (max-width: 600px) {
     margin: 4%;
+  }
+`;
+
+export const SCLink = styled(Link)`
+  padding: 5%;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+
+  @media only screen and (max-width: 600px) {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(250, 250, 250, 1);
+    text-align: center;
+    padding: 9%;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-shadow: 2px 2px 4px #000000;
+    }
+  }
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 2px 2px 4px #000000;
   }
 `;
 
@@ -46,25 +70,5 @@ export const SCNavDisplay = styled.div`
   }
 
   @media only screen and (min-width: 1200px) {
-  }
-  span {
-    padding: 5%;
-    cursor: pointer;
-
-    @media only screen and (max-width: 600px) {
-      background-color: rgba(0, 0, 0, 1);
-      color: rgba(250, 250, 250, 1);
-      text-align: center;
-      padding: 9%;
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.5);
-        text-shadow: 2px 2px 4px #000000;
-      }
-    }
-
-    &:hover {
-      color: rgba(255, 255, 255, 0.7);
-      text-shadow: 2px 2px 4px #000000;
-    }
   }
 `;

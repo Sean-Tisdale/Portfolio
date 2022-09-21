@@ -21,7 +21,7 @@ const LandingPage = () => {
             through new technologies and challenging projects
           </p>
         </SCLeftBox>
-        <img src="/images/headericon.png" alt="Header Icon" />
+        <img src="/images/headericon.svg" alt="Header Icon" />
       </SCLandingPageWrapper>
     </>
   );

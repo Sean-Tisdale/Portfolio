@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
-import { SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
-import { Link } from "react-scroll";
+import { SCLink, SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
 
 const NavBar = () => {
   const [display, setDisplay] = useState<boolean>(false);
@@ -9,26 +8,18 @@ const NavBar = () => {
   return (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
-        <span onTouchEnd={() => setDisplay(!display)}>
-          <Link to="Home" smooth={true} duration={1000}>
-            Home
-          </Link>
-        </span>
-        <span onTouchEnd={() => setDisplay(!display)}>
-          <Link to="Work" smooth={true} duration={1000}>
-            Work
-          </Link>
-        </span>
-        <span onTouchEnd={() => setDisplay(!display)}>
-          <Link to="Skills" smooth={true} duration={1000}>
-            Skills
-          </Link>
-        </span>
-        <span onTouchEnd={() => setDisplay(!display)}>
-          <Link to="Contact" smooth={true} duration={1000}>
-            Contact
-          </Link>
-        </span>
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/">
+          Home
+        </SCLink>
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Work">
+          Work
+        </SCLink>
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Skills">
+          Skills
+        </SCLink>
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Contact">
+          Contact
+        </SCLink>
       </SCNavDisplay>
       <RiMenuFill
         fontSize={45}

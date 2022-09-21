@@ -6,7 +6,7 @@ export const SCAppWrapper = styled.div`
   align-items: flex-end;
   background-image: url("/images/backgroundimage.svg");
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 30%;
   height: 100%;
   width: 100vw;
   overflow: hidden;
