@@ -34,7 +34,6 @@ export const SCNavDisplay = styled.div`
     font-size: 2.6em;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: #730073 0px 3px 10px;
   }
 
   @media only screen and (min-width: 600px) {
