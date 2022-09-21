@@ -49,15 +49,17 @@ export const SCContactPageWrapper = styled.div`
   }
 
   button {
-    padding: 1%;
-    width: 45%;
+    padding: 2%;
+    width: 55%;
     margin-top: 4%;
     background: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(115, 115, 115, 1);
+    box-shadow: 0px 0px 5px 3px rgba(115, 0, 115, 1) inset;
     color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1.6em;
-    border: 4px solid rgba(115, 0, 115, 0.7);
+    // border: 4px solid rgba(115, 0, 115, 0.7);
     font-weight: 600;
     @media only screen and (max-width: 600px) {
       width: 100%;
