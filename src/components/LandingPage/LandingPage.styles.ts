@@ -35,8 +35,8 @@ export const SCLandingPageWrapper = styled.div`
     @media only screen and (max-width: 600px) {
       height: fit-content;
       width: 400px;
-      border-radius: 50%;
-      border: 1px solid white;
+      // border-radius: 50%;
+      //border: 1px solid white;
       margin: auto;
     }
 
