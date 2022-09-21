@@ -12,7 +12,7 @@ export const SCLandingPageWrapper = styled.div`
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding-bottom: 20%;
+    //padding-bottom: 20%;
   }
 
   @media only screen and (min-width: 600px) {
@@ -33,9 +33,9 @@ export const SCLandingPageWrapper = styled.div`
     margin-left: 2%;
     margin-top: 3%;
     @media only screen and (max-width: 600px) {
-      height: 275px;
-      width: 300px;
-      border-radius: 50px;
+      height: 400px;
+      width: 400px;
+      border-radius: 50%;
       margin: auto;
     }
 
@@ -67,6 +67,7 @@ export const SCLeftBox = styled.div`
     padding-left: 6%;
     padding-right: 5%;
     margin-top: -3%;
+    margin-bottom: 0%;
     margin: auto;
   }
   a {

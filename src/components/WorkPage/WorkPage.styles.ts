@@ -9,10 +9,11 @@ export const SCWorkPageWrapper = styled.div`
   width: 100vw;
 
   @media only screen and (max-width: 600px) {
-    height: 100vh;
+    // height: 100vh;
+    height: 100%;
     width: 100%;
     justify-content: center;
-    padding-bottom: 15%;
+    // padding-bottom: 15%;
   }
   h1 {
     font-size: 4em;
