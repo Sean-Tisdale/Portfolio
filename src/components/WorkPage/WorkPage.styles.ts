@@ -7,7 +7,7 @@ export const SCWorkPageWrapper = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-
+  border: 1px solid white;
   @media only screen and (max-width: 600px) {
     height: 100%;
     width: 100%;
@@ -30,9 +30,9 @@ export const SCContentWrapper = styled.div`
   margin-bottom: 11%;
   //border: 1px solid red;
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
-    justify-content: space-between;
     width: 90%;
+    margin-top: 10%;
+    height: 30vh;
   }
 
   @media only screen and (min-width: 600px) {
@@ -63,6 +63,7 @@ export const SCCardWrapper = styled.div`
     border-bottom: 3px solid rgb(150, 150, 150, 0.7);
 
     @media only screen and (max-width: 600px) {
+      // height: 100%;
     }
   }
   &:hover {
@@ -79,6 +80,10 @@ export const SCTitle = styled.div`
   padding-top: 14%;
   cursor: pointer;
   color: rgb(240, 240, 240);
+  @media only screen and (max-width: 600px) {
+    font-size: 0.8em;
+    padding-top: 25%;
+  }
 `;
 
 export const SCModal = styled.div`
@@ -94,6 +99,8 @@ export const SCModal = styled.div`
   position: absolute;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 600px) {
+  }
 `;
 
 export const SCInnerModal = styled.div`
@@ -105,6 +112,10 @@ export const SCInnerModal = styled.div`
   overflow: hidden;
   border: 3px solid rgb(150, 150, 150, 0.7);
 
+  @media only screen and (max-width: 600px) {
+    width: 95%;
+    height: 70%;
+  }
   iframe {
     width: 100%;
     height: 60%;
@@ -120,9 +131,6 @@ export const SCInnerModal = styled.div`
   img {
     height: 60%;
     width: 100%;
-
-    @media only screen and (max-width: 600px) {
-    }
   }
 `;
 
@@ -135,6 +143,13 @@ export const SCloseIcon = styled.div`
   position: absolute;
   right: 25vw;
   top: 19vh;
+  @media only screen and (max-width: 600px) {
+    height: 35px;
+    width: 35px;
+    left: 8vw;
+    top: 5vh;
+    background-color: #000000;
+  }
   &:hover {
     cursor: pointer;
     opacity: 0.9;
