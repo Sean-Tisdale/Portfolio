@@ -11,7 +11,7 @@ export const SCWorkPageWrapper = styled.div`
     height: 90vh;
     width: 100%;
     justify-content: flex-start;
-    padding-top: 5%;
+    padding-top: 4%;
   }
   h1 {
     font-size: 4em;
@@ -27,14 +27,14 @@ export const SCContentWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 11%;
-  border: 1px solid red;
+  //border: 1px solid red;
   @media only screen and (max-width: 600px) {
     width: 90%;
     height: 100%;
     flex-wrap: wrap;
-    margin-bottom: 4%;
+    //margin-bottom: 4%;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
   }
 
   @media only screen and (min-width: 600px) {
@@ -60,7 +60,7 @@ export const SCCardWrapper = styled.div`
 
   @media only screen and (max-width: 600px) {
     height: 45%;
-    width: 40%;
+    width: 45%;
   }
   img {
     height: 60%;
