@@ -28,6 +28,7 @@ export const SCContentWrapper = styled.div`
   justify-content: space-between;
   margin-bottom: 11%;
   //border: 1px solid red;
+
   @media only screen and (max-width: 600px) {
     width: 90%;
     height: 90%;
@@ -57,7 +58,11 @@ export const SCCardWrapper = styled.div`
   overflow: hidden;
   color: rgb(245, 245, 245);
   background-color: #000000;
-
+  &:nth-child(3) {
+    @media only screen and (max-width: 600px) {
+      margin-top: -5%;
+    }
+  }
   @media only screen and (max-width: 600px) {
     height: 42%;
     width: 45%;
@@ -87,9 +92,9 @@ export const SCTitle = styled.div`
   cursor: pointer;
   color: rgb(240, 240, 240);
   @media only screen and (max-width: 600px) {
-    font-size: 1.5em;
-    height: 10%;
-    padding-top: 8%;
+    font-size: 1.8em;
+    height: 30%;
+    padding-top: 9%;
   }
 `;
 
@@ -139,6 +144,9 @@ export const SCInnerModal = styled.div`
   img {
     height: 60%;
     width: 100%;
+
+    @media only screen and (max-width: 600px) {
+    }
   }
 `;
 
