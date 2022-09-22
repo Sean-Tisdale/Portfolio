@@ -30,7 +30,7 @@ export const SCContentWrapper = styled.div`
   //border: 1px solid red;
   @media only screen and (max-width: 600px) {
     width: 90%;
-    height: 100%;
+    height: 90%;
     flex-wrap: wrap;
     //margin-bottom: 4%;
     justify-content: center;
@@ -59,7 +59,7 @@ export const SCCardWrapper = styled.div`
   background-color: #000000;
 
   @media only screen and (max-width: 600px) {
-    height: 45%;
+    height: 42%;
     width: 45%;
   }
   img {
@@ -87,7 +87,7 @@ export const SCTitle = styled.div`
   cursor: pointer;
   color: rgb(240, 240, 240);
   @media only screen and (max-width: 600px) {
-    font-size: 1.3em;
+    font-size: 1.5em;
     height: 10%;
     padding-top: 8%;
   }
