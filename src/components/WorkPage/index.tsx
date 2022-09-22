@@ -14,6 +14,11 @@ const WorkPage = () => {
             <img src="/images/complexlogo.svg" alt="Complex Logo" />
           </a>
         </div>
+        <iframe
+          allowFullScreen={true}
+          src="https://www.loom.com/embed/5c36642a9a8d4317b9b9f9393ded0565"
+          title="Nft Platform"
+        />
       </SCContentWrapper>
     </SCWorkPageWrapper>
   );

@@ -66,4 +66,10 @@ export const SCContentWrapper = styled.div`
       height: 30vh;
     }
   }
+
+  iframe {
+    border-radius: 10px;
+    height: 40%;
+    border: 2px solid rgb(150, 150, 150, 0.8);
+  }
 `;
