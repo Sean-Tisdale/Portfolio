@@ -72,7 +72,7 @@ export const SCContentWrapper = styled.div`
     height: 40%;
     border: 2px solid rgb(150, 150, 150, 0.8);
     @media only screen and (max-width: 600px) {
-      width: 100%;
+      // width: 100%;
     }
   }
 `;
