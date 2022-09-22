@@ -29,8 +29,8 @@ export const SCContentWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   @media only screen and (max-width: 600px) {
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     width: 90%;
   }
 
@@ -55,7 +55,7 @@ export const SCContentWrapper = styled.div`
     }
   }
   div {
-    margin-top: -30%;
+    //margin-top: -30%;
     width: min-content;
   }
   img {
@@ -71,5 +71,8 @@ export const SCContentWrapper = styled.div`
     border-radius: 10px;
     height: 40%;
     border: 2px solid rgb(150, 150, 150, 0.8);
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
   }
 `;
