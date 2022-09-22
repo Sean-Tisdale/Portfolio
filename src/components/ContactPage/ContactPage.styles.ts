@@ -12,6 +12,7 @@ export const SCContactPageWrapper = styled.div`
   h1 {
     text-align: center;
     font-size: 4em;
+    color: rgb(250, 250, 250);
     @media only screen and (max-width: 600px) {
       padding-bottom: 3%;
     }
@@ -53,8 +54,8 @@ export const SCContactPageWrapper = styled.div`
     width: 55%;
     margin-top: 4%;
     background: rgba(0, 0, 0, 0.5);
-    border: 3px solid rgb(120, 120, 120, 0.8);
-    box-shadow: 0px 0px 5px 2px rgba(115, 0, 115, 1) inset;
+    border: 3px solid rgb(150, 150, 150, 0.7);
+
     color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
