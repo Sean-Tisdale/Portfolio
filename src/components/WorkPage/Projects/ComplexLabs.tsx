@@ -31,7 +31,7 @@ export function ComplexLabs() {
               rel="noreferrer"
               title="Complex Labs"
             >
-              <img src="/images/complexlogo.svg" />
+              <img src="/images/complexlogo.svg" alt="Complex Labs" />
             </a>
             <span>technology</span>
             <span>description</span>
