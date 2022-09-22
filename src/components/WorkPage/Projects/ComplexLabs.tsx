@@ -33,8 +33,16 @@ export function ComplexLabs() {
             >
               <img src="/images/complexlogo.svg" alt="Complex Labs" />
             </a>
-            <span>technology</span>
-            <span>description</span>
+            <div>
+              <span>
+                <h3>Technology</h3>
+                <p>react, css</p>
+              </span>
+              <span>
+                <h3>Description</h3>
+                <p>built nft platform</p>
+              </span>
+            </div>
           </SCInnerModal>
         </SCModal>
       </SCCardWrapper>

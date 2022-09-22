@@ -60,7 +60,7 @@ export const SCCardWrapper = styled.div`
   background-color: #000000;
   &:nth-child(3) {
     @media only screen and (max-width: 600px) {
-      margin-top: -5%;
+      margin-top: -10%;
     }
   }
   @media only screen and (max-width: 600px) {
@@ -101,7 +101,7 @@ export const SCTitle = styled.div`
 export const SCModal = styled.div`
   display: ${(props: { display: boolean }) =>
     props.display ? "flex" : "none"};
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
   height: 100vh;
   z-index: 0;
@@ -133,12 +133,37 @@ export const SCInnerModal = styled.div`
     width: 100%;
     height: 60%;
     border: transparent;
+    border-bottom: 3px solid rgb(150, 150, 150, 0.7);
     @media only screen and (max-width: 600px) {
     }
   }
 
-  span {
+  div {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
     @media only screen and (max-width: 600px) {
+    }
+  }
+  span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    justify-content: flex-start;
+    width: 50%;
+    font-size: 1.5em;
+    &:nth-child(2) {
+      border-left: 3px solid rgb(150, 150, 150, 0.7);
+    }
+
+    h3 {
+      width: fit-content;
+      padding-bottom: 2%;
+      border-bottom: 2px solid rgb(220, 220, 220);
+    }
+    p {
+      font-size: 0.9em;
+      margin-top: -2%;
     }
   }
   img {

@@ -30,8 +30,16 @@ export function OpenseaClone() {
               src="https://www.loom.com/embed/5c36642a9a8d4317b9b9f9393ded0565"
               title="Opensea Clone"
             />
-            <span>technology</span>
-            <span>description</span>
+            <div>
+              <span>
+                <h3>Technology</h3>
+                <p>react, css</p>
+              </span>
+              <span>
+                <h3>Description</h3>
+                <p>built nft platform</p>
+              </span>
+            </div>
           </SCInnerModal>
         </SCModal>
       </SCCardWrapper>
