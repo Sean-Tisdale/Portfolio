@@ -9,12 +9,10 @@ export const SCWorkPageWrapper = styled.div`
   width: 100vw;
 
   @media only screen and (max-width: 600px) {
-    // height: 100vh;
     height: 100%;
     width: 100%;
     justify-content: center;
     padding-top: 5%;
-    // padding-bottom: 15%;
   }
   h1 {
     font-size: 4em;
@@ -25,10 +23,12 @@ export const SCWorkPageWrapper = styled.div`
 export const SCContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  width: 65%;
-  height: 80%;
+  width: 80%;
+  height: 50%;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 11%;
+  //border: 1px solid red;
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     justify-content: space-between;
@@ -46,34 +46,97 @@ export const SCContentWrapper = styled.div`
 
   @media only screen and (min-width: 1200px) {
   }
-  span {
-    margin-top: -30%;
-    font-size: 2em;
-    width: 40%;
+`;
+export const SCCardWrapper = styled.div`
+  height: 100%;
+  width: 27%;
+  border-radius: 10px;
+  border: 3px solid rgb(150, 150, 150, 0.7);
+  overflow: hidden;
+  color: rgb(245, 245, 245);
+  background-color: #000000;
+
+  img {
+    height: 60%;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(150, 150, 150, 0.7);
+
     @media only screen and (max-width: 600px) {
-      width: 100%;
-      padding-left: 10%;
     }
   }
-  div {
-    //margin-top: -30%;
-    width: min-content;
+  &:hover {
+    box-shadow: rgba(255, 255, 255, 0.7) 0px 5px 20px;
   }
-  img {
-    height: fit-content;
-    width: 350px;
+`;
+
+export const SCTitle = styled.div`
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-top: 14%;
+  cursor: pointer;
+  color: rgb(240, 240, 240);
+`;
+
+export const SCModal = styled.div`
+  display: ${(props: { display: boolean }) =>
+    props.display ? "flex" : "none"};
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const SCInnerModal = styled.div`
+  margin-top: 5%;
+  height: 70%;
+  width: 40%;
+  background-color: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid rgb(150, 150, 150, 0.7);
+
+  iframe {
+    width: 100%;
+    height: 60%;
+    border: transparent;
     @media only screen and (max-width: 600px) {
-      width: 85vw;
-      height: 30vh;
     }
   }
 
-  iframe {
-    border-radius: 10px;
-    height: 40%;
-    border: 2px solid rgb(150, 150, 150, 0.8);
+  span {
     @media only screen and (max-width: 600px) {
-      // width: 100%;
     }
+  }
+  img {
+    height: 60%;
+    width: 100%;
+
+    @media only screen and (max-width: 600px) {
+    }
+  }
+`;
+
+export const SCloseIcon = styled.div`
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 25vw;
+  top: 19vh;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
   }
 `;

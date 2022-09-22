@@ -6,21 +6,19 @@ import {
   SCSkillsPageWrapper,
 } from "./SkillsPage.styles";
 
+interface ISkillsPageProps {
+  key: string;
+  skill: string;
+}
+
 const SkillsPage = () => {
   return (
     <SCSkillsPageWrapper id="Skills">
       <h1>Tools &#38; Technologies</h1>
       <SCCardWrapper>
-        {SkillsData?.map((data: any) => (
+        {SkillsData?.map((data: ISkillsPageProps) => (
           <SCSkillsCard key={data?.key}>
-            <RiCheckboxCircleFill
-              style={{
-                borderRadius: "50%",
-                boxShadow: "0px 0px 15px 5px #730073 inset",
-              }}
-              fontSize={50}
-              color="rgb(117, 117, 117)"
-            />
+            <RiCheckboxCircleFill fontSize={50} color="rgb(60, 60, 65)" />
             <span>{data?.skill}</span>
           </SCSkillsCard>
         ))}
