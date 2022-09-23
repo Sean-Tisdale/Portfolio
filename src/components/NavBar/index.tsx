@@ -8,16 +8,16 @@ const NavBar = () => {
   return (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/">
           Home
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Work">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Work">
           Work
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Skills">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Skills">
           Skills
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Contact">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Contact">
           Contact
         </SCLink>
       </SCNavDisplay>
