@@ -6,7 +6,6 @@ import {
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
-import { RiFilePdfLine, RiLinkedinBoxLine } from "react-icons/ri";
 
 const ContactPage = () => {
   const { register, handleSubmit, reset, formState } = useForm({
@@ -37,15 +36,19 @@ const ContactPage = () => {
       <SCInnerWrapper>
         <SCContentWrapper>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="Resume">
-            <RiFilePdfLine color="#ffffff" fontSize={50} />
+            <img src="/images/contact/resume.svg" alt="Discord" />
           </a>
           <a
             href="https://www.linkedin.com/in/sean-tisdale-72111b241/"
             target="_blank"
             rel="noreferrer"
-            title="Discord"
+            title="Linkedin"
           >
-            <RiLinkedinBoxLine color="#ffffff" fontSize={50} />
+            <img
+              style={{ backgroundColor: "#ffffff", borderRadius: "8px" }}
+              src="/images/contact/linkedin.svg"
+              alt="Linkedin"
+            />
           </a>
           <a
             href="https://discordapp.com/users/8655"
@@ -53,7 +56,7 @@ const ContactPage = () => {
             rel="noreferrer"
             title="Discord"
           >
-            <img src="/images/discord.svg" alt="Discord" />
+            <img src="/images/contact/discord.svg" alt="Discord" />
           </a>
           <a
             href="mailto:sean@complexlabs.co"
@@ -61,7 +64,7 @@ const ContactPage = () => {
             rel="noreferrer"
             title="Gmail"
           >
-            <img src="/images/gmail.svg" alt="Gmail" />
+            <img src="/images/contact/gmail.svg" alt="Gmail" />
           </a>
           <a
             href="https://github.com/Sean-Tisdale"
@@ -70,8 +73,8 @@ const ContactPage = () => {
             title="Github"
           >
             <img
-              style={{ backgroundColor: "#ffffff" }}
-              src="/images/github.png"
+              style={{ backgroundColor: "#ffffff", borderRadius: "50%" }}
+              src="/images/contact/github.png"
               alt="Github"
             />
           </a>

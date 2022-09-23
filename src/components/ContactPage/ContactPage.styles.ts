@@ -125,15 +125,15 @@ export const SCContentWrapper = styled.div`
     flex-direction: row;
     margin-top: -13%;
     margin-bottom: -5%;
-    // gap: 20%;
+    gap: 1%;
     width: 95%;
-  }
-  a {
-    border-radius: 50%;
+    img {
+      height: 30px;
+      width: 30px;
+    }
   }
   img {
     height: 55px;
     width: 55px;
-    border-radius: 50%;
   }
 `;
