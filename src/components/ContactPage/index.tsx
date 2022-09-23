@@ -36,7 +36,7 @@ const ContactPage = () => {
       <SCInnerWrapper>
         <SCContentWrapper>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="Resume">
-            <img src="/images/contact/resume.svg" alt="Discord" />
+            <img src="/images/contact/resume.svg" alt="Resume" />
           </a>
           <a
             href="https://www.linkedin.com/in/sean-tisdale-72111b241/"
@@ -57,14 +57,6 @@ const ContactPage = () => {
             title="Discord"
           >
             <img src="/images/contact/discord.svg" alt="Discord" />
-          </a>
-          <a
-            href="mailto:sean@complexlabs.co"
-            target="_blank"
-            rel="noreferrer"
-            title="Gmail"
-          >
-            <img src="/images/contact/gmail.svg" alt="Gmail" />
           </a>
           <a
             href="https://github.com/Sean-Tisdale"
