@@ -78,6 +78,7 @@ export const SCCardWrapper = styled.div`
   }
   &:hover {
     box-shadow: rgba(255, 255, 255, 0.7) 0px 5px 20px;
+    margin-bottom: 1%;
   }
 `;
 

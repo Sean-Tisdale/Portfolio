@@ -8,23 +8,23 @@ const NavBar = () => {
   return (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
-        <SCLink onTouchEnd={() => setDisplay(false)} to="/">
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/">
           Home
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(false)} to="/Work">
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Work">
           Work
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(false)} to="/Skills">
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Skills">
           Skills
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(false)} to="/Contact">
+        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Contact">
           Contact
         </SCLink>
       </SCNavDisplay>
       <RiMenuFill
         fontSize={45}
         style={{ cursor: "pointer" }}
-        onClick={() => setDisplay(!display)}
+        onMouseEnter={() => setDisplay(!display)}
       />
     </SCNavBarWrapper>
   );
