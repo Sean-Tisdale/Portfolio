@@ -30,7 +30,7 @@ export const SCContentWrapper = styled.div`
   // border: 1px solid red;
 
   @media only screen and (max-width: 600px) {
-    width: 97%;
+    width: 100%;
     height: 90%;
     flex-wrap: wrap;
     justify-content: center;
@@ -94,7 +94,7 @@ export const SCTitle = styled.div`
     font-size: 1.8em;
     height: 30%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
 `;
 

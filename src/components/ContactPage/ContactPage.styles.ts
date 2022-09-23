@@ -32,6 +32,12 @@ export const SCContactPageWrapper = styled.div`
     text-align: start;
     font-size: 0.5em;
     background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding-left: 2%;
+    @media only screen and (max-width: 600px) {
+      height: 4vh;
+      font-size: 1em;
+    }
   }
   label {
     font-size: 2em;
@@ -48,6 +54,9 @@ export const SCContactPageWrapper = styled.div`
     resize: none;
     font-size: 0.7em;
     background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-top: 1%;
     @media only screen and (max-width: 600px) {
       padding-bottom: 10vh;
     }
