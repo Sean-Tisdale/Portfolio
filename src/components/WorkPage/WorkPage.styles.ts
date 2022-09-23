@@ -122,7 +122,7 @@ export const SCInnerModal = styled.div`
   background-color: #000000;
   border-radius: 10px;
   overflow: hidden;
-  border: 3px solid rgb(150, 150, 150, 0.7);
+  border: 3px solid rgba(150, 150, 150, 0.7);
 
   @media only screen and (max-width: 600px) {
     width: 95%;
@@ -133,7 +133,7 @@ export const SCInnerModal = styled.div`
     width: 100%;
     height: 60%;
     border: transparent;
-    border-bottom: 3px solid rgb(150, 150, 150, 0.7);
+    border-bottom: 3px solid rgba(150, 150, 150, 0.7);
     @media only screen and (max-width: 600px) {
     }
   }
@@ -153,7 +153,7 @@ export const SCInnerModal = styled.div`
     width: 50%;
     font-size: 1.5em;
     &:nth-child(2) {
-      border-left: 3px solid rgb(150, 150, 150, 0.7);
+      border-left: 3px solid rgba(150, 150, 150, 0.7);
     }
 
     h3 {
@@ -176,7 +176,7 @@ export const SCInnerModal = styled.div`
 `;
 
 export const SCloseIcon = styled.div`
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 2.4px solid rgba(150, 150, 150, 1);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -193,6 +193,6 @@ export const SCloseIcon = styled.div`
   }
   &:hover {
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.7;
   }
 `;

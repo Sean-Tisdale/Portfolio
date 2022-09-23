@@ -18,7 +18,7 @@ const SkillsPage = () => {
       <SCCardWrapper>
         {SkillsData?.map((data: ISkillsPageProps) => (
           <SCSkillsCard key={data?.key}>
-            <RiCheckboxCircleFill fontSize={50} color="rgb(60, 60, 65)" />
+            <RiCheckboxCircleFill fontSize={50} color="#6b6b6bfb" />
             <span>{data?.skill}</span>
           </SCSkillsCard>
         ))}

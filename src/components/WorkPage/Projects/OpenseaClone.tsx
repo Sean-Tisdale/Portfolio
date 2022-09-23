@@ -22,7 +22,7 @@ export function OpenseaClone() {
 
         <SCModal display={display}>
           <SCloseIcon onClick={() => setDisplay(false)}>
-            <RiCloseLine color="#ffffff" fontSize={38} />
+            <RiCloseLine color="rgb(240, 240, 240)" fontSize={38} />
           </SCloseIcon>
           <SCInnerModal>
             <iframe
