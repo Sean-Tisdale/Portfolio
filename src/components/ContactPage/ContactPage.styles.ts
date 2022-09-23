@@ -28,8 +28,10 @@ export const SCContactPageWrapper = styled.div`
   }
   input {
     width: 100%;
-    height: 4vh;
+    height: 5vh;
     text-align: start;
+    font-size: 0.5em;
+    background-color: rgb(230, 230, 230);
   }
   label {
     font-size: 2em;
@@ -44,6 +46,8 @@ export const SCContactPageWrapper = styled.div`
     padding-bottom: 17vh;
     width: 100%;
     resize: none;
+    font-size: 0.7em;
+    background-color: rgb(230, 230, 230);
     @media only screen and (max-width: 600px) {
       padding-bottom: 10vh;
     }
@@ -52,15 +56,13 @@ export const SCContactPageWrapper = styled.div`
   button {
     padding: 2%;
     width: 55%;
-    margin-top: 4%;
+    margin-top: 2%;
     background: rgba(0, 0, 0, 0.5);
     border: 3px solid rgb(150, 150, 150, 0.7);
-
     color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1.6em;
-    // border: 4px solid rgba(115, 0, 115, 0.7);
     font-weight: 600;
     @media only screen and (max-width: 600px) {
       width: 100%;

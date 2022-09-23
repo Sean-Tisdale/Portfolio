@@ -83,5 +83,6 @@ export const SCSkillsCard = styled.div`
   box-shadow: 0px 0px 25px 2px #7c007c;
   @media only screen and (max-width: 600px) {
     width: 90%;
+    box-shadow: 0px 0px 5px 3px #7c007c;
   }
 `;
