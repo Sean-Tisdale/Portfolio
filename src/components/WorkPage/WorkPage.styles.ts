@@ -44,7 +44,7 @@ export const SCContentWrapper = styled.div`
   height: 50%;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 11%;
+  margin-bottom: 8%;
 
   @media only screen and (max-width: 600px) {
     width: 97%;
@@ -52,6 +52,7 @@ export const SCContentWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 5%;
+    margin-bottom: 11%;
   }
 
   @media only screen and (min-width: 600px) {
