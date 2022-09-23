@@ -20,9 +20,6 @@ const LandingPage = () => {
             value and talent. Motivated to advance and expand my skill set
             through new technologies and challenging projects
           </p>
-          <a style={{ border: "none" }} href="/Resume.pdf" target="_blank">
-            resume
-          </a>
         </SCLeftBox>
         <img src="/images/headericon.svg" alt="Header Icon" />
       </SCLandingPageWrapper>

@@ -7,7 +7,6 @@ export const SCContactPageWrapper = styled.div`
     height: 100%;
     width: 100%;
     padding-top: 5%;
-    //  margin-bottom: 10%;
   }
   h1 {
     text-align: center;
@@ -20,7 +19,6 @@ export const SCContactPageWrapper = styled.div`
   form {
     text-align: left;
     width: 30%;
-    // border: 1px solid red;
     @media only screen and (max-width: 600px) {
       width: 90%;
       margin-top: 10%;
@@ -89,12 +87,13 @@ export const SCContactPageWrapper = styled.div`
 
 export const SCInnerWrapper = styled.div`
   width: 100%;
-  margin-top: 6%;
+  margin-top: 5%;
   padding-left: 3%;
   display: flex;
   flex-direction: row;
   gap: 17%;
   justify-content: center;
+
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     padding-left: 0%;
@@ -119,14 +118,15 @@ export const SCInnerWrapper = styled.div`
 export const SCContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20%;
-  justify-content: center;
-  margin-top: -5%;
+  gap: 10%;
+  justify-content: space-between;
+
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     margin-top: -13%;
     margin-bottom: -5%;
-    gap: 60px;
+    // gap: 20%;
+    width: 95%;
   }
   a {
     border-radius: 50%;

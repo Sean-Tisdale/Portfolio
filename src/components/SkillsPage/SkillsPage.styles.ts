@@ -11,7 +11,6 @@ export const SCSkillsPageWrapper = styled.div`
     width: 100%;
     height: 100%;
     padding-top: 10%;
-    // padding-bottom: 10%;
   }
 
   @media only screen and (min-width: 600px) {
@@ -81,4 +80,7 @@ export const SCSkillsCard = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
   border: 3px solid rgb(180, 180, 180);
   box-shadow: 0px 0px 15px 1px #7c007c;
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+  }
 `;
