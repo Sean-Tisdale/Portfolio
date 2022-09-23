@@ -39,7 +39,11 @@ export function NftPlatform() {
               </span>
               <span>
                 <h3>Description</h3>
-                <p>built nft platform</p>
+                <p>
+                  Created this app to learn how to code a smart contract and
+                  mint an nft. Learned how to upload metadata to IPFS that&#39;s
+                  tied to the nft
+                </p>
               </span>
             </div>
           </SCInnerModal>

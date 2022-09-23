@@ -184,9 +184,9 @@ export const SCInnerModal = styled.div`
       border-bottom: 2px solid rgb(220, 220, 220);
     }
     p {
-      font-size: 0.9em;
-      margin-top: -2%;
-      margin-left: -4%;
+      font-size: 0.8em;
+      margin: -5% 2% 0% -4%;
+      overflow: scroll;
     }
   }
   img {

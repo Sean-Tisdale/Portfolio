@@ -43,7 +43,10 @@ export function ComplexLabs() {
               </span>
               <span>
                 <h3>Description</h3>
-                <p>built nft platform</p>
+                <p>
+                  in charge of creating components with user experience in mind,
+                  while focusing on RWD &#38; SEO during production
+                </p>
               </span>
             </div>
           </SCInnerModal>

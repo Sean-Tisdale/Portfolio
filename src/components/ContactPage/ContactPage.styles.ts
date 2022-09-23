@@ -120,6 +120,7 @@ export const SCContentWrapper = styled.div`
   flex-direction: column;
   gap: 10%;
   justify-content: space-between;
+  padding: 1% 0% 2% 0%;
 
   @media only screen and (max-width: 600px) {
     flex-direction: row;
@@ -127,6 +128,7 @@ export const SCContentWrapper = styled.div`
     margin-bottom: -5%;
     gap: 1%;
     width: 95%;
+    padding: 0% 0% 0% 0%;
     img {
       height: 30px;
       width: 30px;

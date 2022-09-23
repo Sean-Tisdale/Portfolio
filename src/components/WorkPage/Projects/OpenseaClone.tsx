@@ -39,7 +39,10 @@ export function OpenseaClone() {
               </span>
               <span>
                 <h3>Description</h3>
-                <p>built nft platform</p>
+                <p>
+                  Personal project focused on CSS, API calls, displaying data,
+                  &#38; communicating with the Blockchain.
+                </p>
               </span>
             </div>
           </SCInnerModal>
