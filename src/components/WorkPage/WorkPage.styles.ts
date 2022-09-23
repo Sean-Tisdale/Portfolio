@@ -19,6 +19,25 @@ export const SCWorkPageWrapper = styled.div`
   }
 `;
 
+export const SCWorkTypes = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  font-size: 3em;
+  font-weight: 600;
+  margin-top: -3%;
+  gap: 34%;
+  padding-left: 4%;
+  //border: 1px solid red;
+  @media only screen and (max-width: 600px) {
+    gap: 12%;
+    width: 97%;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 6%;
+  }
+`;
+
 export const SCContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -27,10 +46,9 @@ export const SCContentWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 11%;
-  // border: 1px solid red;
 
   @media only screen and (max-width: 600px) {
-    width: 100%;
+    width: 97%;
     height: 90%;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,6 +78,7 @@ export const SCCardWrapper = styled.div`
   &:nth-child(3) {
     @media only screen and (max-width: 600px) {
       margin-top: -10%;
+      margin-right: -48%;
     }
   }
   @media only screen and (max-width: 600px) {
