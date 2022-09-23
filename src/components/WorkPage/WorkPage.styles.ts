@@ -28,9 +28,8 @@ export const SCWorkTypes = styled.div`
   margin-top: -3%;
   gap: 34%;
   padding-left: 4%;
-  //border: 1px solid red;
   @media only screen and (max-width: 600px) {
-    gap: 12%;
+    gap: 9%;
     width: 97%;
     justify-content: center;
     padding-left: 0%;
@@ -78,7 +77,7 @@ export const SCCardWrapper = styled.div`
   &:nth-child(3) {
     @media only screen and (max-width: 600px) {
       margin-top: -10%;
-      margin-right: -48%;
+      margin-right: -49%;
     }
   }
   @media only screen and (max-width: 600px) {
