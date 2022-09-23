@@ -159,11 +159,14 @@ export const SCInnerModal = styled.div`
     h3 {
       width: fit-content;
       padding-bottom: 2%;
+      margin-bottom: 10%;
+      margin-top: 5%;
       border-bottom: 2px solid rgb(220, 220, 220);
     }
     p {
       font-size: 0.9em;
       margin-top: -2%;
+      margin-left: -4%;
     }
   }
   img {

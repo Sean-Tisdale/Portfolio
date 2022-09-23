@@ -72,6 +72,8 @@ export const SCLeftBox = styled.div`
   }
   a {
     color: rgb(240, 240, 240);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(240, 240, 240);
   }
 
   div {
@@ -94,6 +96,7 @@ export const SCLeftBox = styled.div`
     font-size: 0.3em;
     font-weight: 400;
     margin-top: 4%;
+    line-height: 130%;
     @media only screen and (max-width: 600px) {
       width: 95%;
     }

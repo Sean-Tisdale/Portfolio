@@ -8,7 +8,7 @@ const LandingPage = () => {
           <div>Sean Tisdale</div>
           <span>Software Engineer</span>
           <p>
-            Passionate web developer currently interning at&nbsp;
+            Passionate Front-End Developer currently interning at&nbsp;
             <a
               href="https://www.complexlabs.co/"
               target="_blank"
@@ -16,10 +16,13 @@ const LandingPage = () => {
             >
               Complex Labs
             </a>
-            &nbsp;working in the front end. Problem solver eager to prove my
+            &nbsp;focusing on user experience. Problem solver eager to prove my
             value and talent. Motivated to advance and expand my skill set
             through new technologies and challenging projects
           </p>
+          <a style={{ border: "none" }} href="/Resume.pdf" target="_blank">
+            resume
+          </a>
         </SCLeftBox>
         <img src="/images/headericon.svg" alt="Header Icon" />
       </SCLandingPageWrapper>

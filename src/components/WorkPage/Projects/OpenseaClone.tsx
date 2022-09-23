@@ -33,7 +33,9 @@ export function OpenseaClone() {
             <div>
               <span>
                 <h3>Technology</h3>
-                <p>react, css</p>
+                <p>
+                  TypeScript, React, CSS, Axios, Web3 React, Ethers, Opensea.js
+                </p>
               </span>
               <span>
                 <h3>Description</h3>

@@ -32,7 +32,10 @@ export function NftPlatform() {
             <div>
               <span>
                 <h3>Technology</h3>
-                <p>react, css</p>
+                <p>
+                  TypeScript, Next.js, CSS, Axios, Web3 React, Ethers, Moralis,
+                  Pinata SDK, Typechain, Codegen
+                </p>
               </span>
               <span>
                 <h3>Description</h3>
