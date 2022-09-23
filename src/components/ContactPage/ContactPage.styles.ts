@@ -20,14 +20,13 @@ export const SCContactPageWrapper = styled.div`
   form {
     text-align: left;
     width: 30%;
+    // border: 1px solid red;
     @media only screen and (max-width: 600px) {
       width: 90%;
       margin-top: 10%;
-      overflow: hidden;
     }
   }
   input {
-    width: 100%;
     height: 5vh;
     text-align: start;
     font-size: 0.5em;
@@ -46,11 +45,13 @@ export const SCContactPageWrapper = styled.div`
     flex-direction: column;
     gap: 1.5vh;
     margin-bottom: 3vh;
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 2vh;
+    }
   }
 
   textarea {
     padding-bottom: 17vh;
-    width: 100%;
     resize: none;
     font-size: 0.7em;
     background-color: rgb(230, 230, 230);
@@ -58,7 +59,8 @@ export const SCContactPageWrapper = styled.div`
     padding-left: 2%;
     padding-top: 1%;
     @media only screen and (max-width: 600px) {
-      padding-bottom: 10vh;
+      padding-bottom: 9vh;
+      font-size: 1.2em;
     }
   }
 
