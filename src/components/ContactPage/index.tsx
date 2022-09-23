@@ -6,7 +6,7 @@ import {
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
-import { RiFilePdfLine } from "react-icons/ri";
+import { RiFilePdfLine, RiLinkedinBoxLine } from "react-icons/ri";
 
 const ContactPage = () => {
   const { register, handleSubmit, reset, formState } = useForm({
@@ -38,6 +38,14 @@ const ContactPage = () => {
         <SCContentWrapper>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="Resume">
             <RiFilePdfLine color="#ffffff" fontSize={50} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sean-tisdale-72111b241/"
+            target="_blank"
+            rel="noreferrer"
+            title="Discord"
+          >
+            <RiLinkedinBoxLine color="#ffffff" fontSize={50} />
           </a>
           <a
             href="https://discordapp.com/users/8655"
