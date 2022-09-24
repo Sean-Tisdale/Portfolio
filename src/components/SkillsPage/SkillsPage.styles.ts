@@ -68,18 +68,20 @@ export const SCSkillsCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 38%;
-  height: 16%;
+  justify-content: center;
+  width: 42%;
+  height: 14%;
   border-radius: 12px;
-  padding-left: 3%;
   margin-bottom: 6%;
-  gap: 6%;
-  font-size: 2.4em;
+  font-size: 2.6em;
   font-weight: 600;
-  color: rgb(230, 230, 230);
-  background-color: rgba(0, 0, 0, 0.6);
-  border: 3px solid rgb(180, 180, 180);
+  color: rgb(220, 220, 220);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 4px solid rgba(255, 255, 255, 0.3);
   @media only screen and (max-width: 600px) {
     width: 90%;
+    min-height: 12%;
+    font-size: 2.2em;
+    border: 3px solid rgba(255, 255, 255, 0.3);
   }
 `;

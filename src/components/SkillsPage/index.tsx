@@ -1,4 +1,3 @@
-import { RiCheckboxCircleFill } from "react-icons/ri";
 import { SkillsData } from "./constants";
 import {
   SCCardWrapper,
@@ -18,7 +17,6 @@ const SkillsPage = () => {
       <SCCardWrapper>
         {SkillsData?.map((data: ISkillsPageProps) => (
           <SCSkillsCard key={data?.key}>
-            <RiCheckboxCircleFill fontSize={50} color="#6b6b6bfb" />
             <span>{data?.skill}</span>
           </SCSkillsCard>
         ))}
