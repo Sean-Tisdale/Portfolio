@@ -157,7 +157,7 @@ export const SCloseIcon = styled.div`
     height: 35px;
     width: 35px;
     left: 8vw;
-    top: 12vh;
+    top: 10vh;
   }
   &:hover {
     cursor: pointer;
