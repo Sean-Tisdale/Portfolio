@@ -40,9 +40,11 @@ export function ProfessionalCard({
               </span>
               <span>
                 <h3>Description</h3>
-                <h2>
-                  Role: <mark>{role}</mark>
-                </h2>
+                {role ? (
+                  <h2>
+                    Role: <mark>{role}</mark>
+                  </h2>
+                ) : null}
                 <p>{description}</p>
               </span>
             </div>

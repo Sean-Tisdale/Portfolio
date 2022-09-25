@@ -119,8 +119,8 @@ export const SCInnerModal = styled.div`
       font-size: 0.9em;
       margin: -7% 2.5% 0% 0%;
       padding-bottom: 5%;
+      overflow: scroll;
       @media only screen and (max-width: 600px) {
-        overflow: scroll;
         margin-top: 0%;
       }
     }
