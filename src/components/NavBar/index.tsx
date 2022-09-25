@@ -31,25 +31,21 @@ const NavBar = () => {
 
   return isMobile ? (
     <SCNavBarWrapper>
-      <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/">
+      <SCNavDisplay display={display}>
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/">
           Home
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Work">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Work">
           Work
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Skills">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Skills">
           Skills
         </SCLink>
-        <SCLink onTouchEnd={() => setDisplay(!display)} to="/Contact">
+        <SCLink onTouchEnd={() => setDisplay(false)} to="/Contact">
           Contact
         </SCLink>
       </SCNavDisplay>
-      <RiMenuFill
-        fontSize={45}
-        style={{ cursor: "pointer" }}
-        onMouseEnter={() => setDisplay(!display)}
-      />
+      <RiMenuFill fontSize={45} onTouchEnd={() => setDisplay(true)} />
     </SCNavBarWrapper>
   ) : (
     <SCNavDisplay display={true}>

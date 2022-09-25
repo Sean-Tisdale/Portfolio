@@ -10,6 +10,7 @@ export const SCNavBarWrapper = styled.div`
   z-index: 1;
   position: fixed;
   overflow: visible;
+  border: 1px solid red;
   @media only screen and (max-width: 600px) {
     margin: 4%;
   }
@@ -20,6 +21,7 @@ export const SCLink = styled(Link)`
   cursor: pointer;
   color: rgb(200, 200, 200);
   text-decoration: none;
+  border: 1px solid lightblue;
   @media only screen and (max-width: 600px) {
     background-color: rgba(0, 0, 0, 0.98);
     color: rgba(250, 250, 250, 1);
@@ -45,6 +47,7 @@ export const SCNavDisplay = styled.div`
   color: #ffffff;
   margin: 1%;
   width: 10%;
+  border: 1px solid white;
   z-index: ${(props: INavBarProps) => (props.display ? "9" : "-9")};
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
