@@ -69,7 +69,7 @@ export const SCInnerModal = styled.div`
 
   @media only screen and (max-width: 600px) {
     width: 95%;
-    height: 80%;
+    height: 70%;
     margin-top: 15%;
   }
   iframe {
@@ -148,12 +148,13 @@ export const SCloseIcon = styled.div`
   position: absolute;
   right: 11vw;
   top: 8vh;
+  background-color: #000000;
+
   @media only screen and (max-width: 600px) {
     height: 35px;
     width: 35px;
     left: 8vw;
-    top: 5vh;
-    background-color: #000000;
+    top: 8vh;
   }
   &:hover {
     cursor: pointer;
