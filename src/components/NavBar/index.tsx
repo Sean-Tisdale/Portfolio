@@ -27,7 +27,7 @@ const NavBar = () => {
 
   useEffect(() => {
     setNavSelector(window?.location?.pathname);
-  }, [window?.location?.pathname]);
+  }, []);
 
   return isMobile ? (
     <SCNavBarWrapper>
