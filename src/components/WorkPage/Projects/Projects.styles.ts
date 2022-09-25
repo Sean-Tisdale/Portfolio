@@ -131,7 +131,7 @@ export const SCInnerModal = styled.div`
     width: fit-content;
     font-weight: 500;
     @media only screen and (max-width: 600px) {
-      margin: -3% 0% 10% 0%;
+      margin: 0% 0% 10% 0%;
     }
     mark {
       background: none;
