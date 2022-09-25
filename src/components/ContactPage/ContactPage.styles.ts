@@ -14,7 +14,7 @@ export const SCContactPageWrapper = styled.div`
     color: rgb(250, 250, 250);
     @media only screen and (max-width: 600px) {
       padding-bottom: 3%;
-      margin-top: 1%;
+      margin-top: 2%;
     }
   }
   form {

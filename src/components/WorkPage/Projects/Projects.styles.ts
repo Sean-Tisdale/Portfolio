@@ -86,7 +86,7 @@ export const SCInnerModal = styled.div`
     height: 40%;
     border-top: 2px solid rgba(150, 150, 150, 0.7);
     @media only screen and (max-width: 600px) {
-      font-size: 0.8em;
+      font-size: 1.1em;
     }
   }
   span {
