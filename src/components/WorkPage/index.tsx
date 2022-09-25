@@ -1,5 +1,5 @@
-import { ProfessionalProjects } from "./Projects/ProfessionalProjects";
-import { PersonalProjects } from "./Projects/PersonalProjects";
+import { ProfessionalProjects } from "./Projects/Professional/ProfessionalProjects";
+import { PersonalProjects } from "./Projects/Personal/PersonalProjects";
 
 import {
   SCContentWrapper,

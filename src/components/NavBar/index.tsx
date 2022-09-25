@@ -5,6 +5,7 @@ import { SCLink, SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
 const NavBar = () => {
   const [display, setDisplay] = useState<boolean>(false);
   const [isMobile, setIsMobile] = useState<boolean>(false);
+  const [navSelector, setNavSelector] = useState<string>("/");
 
   useEffect(() => {
     if (window.innerWidth <= 600) {
@@ -23,6 +24,10 @@ const NavBar = () => {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
   }, []);
+
+  useEffect(() => {
+    setNavSelector(window?.location?.pathname);
+  }, [window?.location?.pathname]);
 
   return isMobile ? (
     <SCNavBarWrapper>
@@ -48,10 +53,42 @@ const NavBar = () => {
     </SCNavBarWrapper>
   ) : (
     <SCNavDisplay display={true}>
-      <SCLink to="/">Home</SCLink>
-      <SCLink to="/Work">Work</SCLink>
-      <SCLink to="/Skills">Skills</SCLink>
-      <SCLink to="/Contact">Contact</SCLink>
+      <SCLink
+        style={{
+          color: navSelector === "/" ? "#cb01cb" : "",
+        }}
+        onClick={() => setNavSelector("/")}
+        to="/"
+      >
+        Home
+      </SCLink>
+      <SCLink
+        style={{
+          color: navSelector === "/Work" ? "#cb01cb" : "",
+        }}
+        onClick={() => setNavSelector("/Work")}
+        to="/Work"
+      >
+        Work
+      </SCLink>
+      <SCLink
+        style={{
+          color: navSelector === "/Skills" ? "#cb01cb" : "",
+        }}
+        onClick={() => setNavSelector("/Skills")}
+        to="/Skills"
+      >
+        Skills
+      </SCLink>
+      <SCLink
+        style={{
+          color: navSelector === "/Contact" ? "#cb01cb" : "",
+        }}
+        onClick={() => setNavSelector("/Contact")}
+        to="/Contact"
+      >
+        Contact
+      </SCLink>
     </SCNavDisplay>
   );
 };

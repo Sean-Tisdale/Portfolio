@@ -60,8 +60,8 @@ export const SCModal = styled.div`
 export const SCInnerModal = styled.div`
   margin-top: 5%;
   margin-bottom: 1%;
-  height: 85%;
-  width: 50%;
+  height: 90%;
+  width: 70%;
   background-color: #000000;
   border-radius: 10px;
   overflow: hidden;
@@ -69,13 +69,21 @@ export const SCInnerModal = styled.div`
 
   @media only screen and (max-width: 600px) {
     width: 95%;
-    height: 70%;
+    height: 80%;
     margin-top: 15%;
   }
   iframe {
     width: 100%;
-    height: 60%;
+    height: 50%;
     border: transparent;
+    @media only screen and (max-width: 600px) {
+    }
+  }
+  img {
+    height: 50%;
+    width: 90%;
+    border: none;
+    margin-left: 5%;
     @media only screen and (max-width: 600px) {
     }
   }
@@ -83,7 +91,7 @@ export const SCInnerModal = styled.div`
   div {
     display: flex;
     flex-direction: row;
-    height: 40%;
+    height: 50%;
     border-top: 2px solid rgba(150, 150, 150, 0.7);
     @media only screen and (max-width: 600px) {
       font-size: 1.1em;
@@ -104,13 +112,17 @@ export const SCInnerModal = styled.div`
       width: fit-content;
       padding-bottom: 2%;
       margin-bottom: 10%;
-      margin-top: 7%;
+      margin-top: 5%;
       border-bottom: 2px solid rgb(220, 220, 220);
     }
     p {
       font-size: 0.9em;
-      margin: -5% 2.5% 0% 0%;
-      overflow: scroll;
+      margin: -7% 2.5% 0% 0%;
+      padding-bottom: 5%;
+      @media only screen and (max-width: 600px) {
+        overflow: scroll;
+        margin-top: 0%;
+      }
     }
   }
   h2 {
@@ -125,15 +137,6 @@ export const SCInnerModal = styled.div`
       font-weight: 400;
     }
   }
-
-  img {
-    height: 60%;
-    width: 90%;
-    border: none;
-    margin-left: 5%;
-    @media only screen and (max-width: 600px) {
-    }
-  }
 `;
 
 export const SCloseIcon = styled.div`
@@ -143,13 +146,13 @@ export const SCloseIcon = styled.div`
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 20vw;
-  top: 11vh;
+  right: 11vw;
+  top: 8vh;
   @media only screen and (max-width: 600px) {
     height: 35px;
     width: 35px;
     left: 8vw;
-    top: 10vh;
+    top: 5vh;
     background-color: #000000;
   }
   &:hover {
