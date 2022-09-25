@@ -11,6 +11,7 @@ export const SCCardWrapper = styled.div`
 
   @media only screen and (max-width: 600px) {
     width: 85%;
+    height: 35%;
   }
   img {
     height: 70%;
@@ -35,7 +36,7 @@ export const SCTitle = styled.div`
   color: rgb(240, 240, 240);
   @media only screen and (max-width: 600px) {
     font-size: 1.8em;
-    padding-top: 3%;
+    padding-top: 10%;
   }
 `;
 

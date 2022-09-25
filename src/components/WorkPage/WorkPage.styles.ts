@@ -69,6 +69,6 @@ export const SCWorkType = styled.span`
   border-bottom: 1px solid rgb(220, 220, 220, 0.8);
 
   @media only screen and (max-width: 600px) {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 `;

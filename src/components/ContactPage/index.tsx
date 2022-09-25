@@ -40,7 +40,7 @@ const ContactPage = () => {
               style={{
                 backgroundColor: "#ffffff",
                 borderRadius: "8px",
-                padding: "5% 0% 5% 0%",
+                padding: "6% 0% 6% 0%",
               }}
               src="/images/contact/resume.svg"
               alt="Resume"
