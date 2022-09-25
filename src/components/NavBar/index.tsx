@@ -55,7 +55,7 @@ const NavBar = () => {
     <SCNavDisplay display={true}>
       <SCLink
         style={{
-          color: navSelector === "/" ? "#cb01cb" : "",
+          color: navSelector === "/" ? "#af00af" : "",
         }}
         onClick={() => setNavSelector("/")}
         to="/"
@@ -64,7 +64,7 @@ const NavBar = () => {
       </SCLink>
       <SCLink
         style={{
-          color: navSelector === "/Work" ? "#cb01cb" : "",
+          color: navSelector === "/Work" ? "#af00af" : "",
         }}
         onClick={() => setNavSelector("/Work")}
         to="/Work"
@@ -73,7 +73,7 @@ const NavBar = () => {
       </SCLink>
       <SCLink
         style={{
-          color: navSelector === "/Skills" ? "#cb01cb" : "",
+          color: navSelector === "/Skills" ? "#af00af" : "",
         }}
         onClick={() => setNavSelector("/Skills")}
         to="/Skills"
@@ -82,7 +82,7 @@ const NavBar = () => {
       </SCLink>
       <SCLink
         style={{
-          color: navSelector === "/Contact" ? "#cb01cb" : "",
+          color: navSelector === "/Contact" ? "#af00af" : "",
         }}
         onClick={() => setNavSelector("/Contact")}
         to="/Contact"

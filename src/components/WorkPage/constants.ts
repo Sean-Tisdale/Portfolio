@@ -30,7 +30,7 @@ export const NftPlatformData = {
   description: `Smart Contract - created an ERC-721 with ability to mint multiple NFT's with identification storage inside smart contract.
      Front End & Middleware - Integrated smart contract functionality.
       Ability to mint NFT with specific metadata stored through IPFS & Moralis.
-      Integrations between smart contract & Moralis to parse the smart contract events.
+      Integrations between smart contract & Moralis to parse smart contract events.
       Retrieved all NFT metadata from Moralis to display on the Front End.
      `,
 };

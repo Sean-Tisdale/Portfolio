@@ -126,10 +126,13 @@ export const SCInnerModal = styled.div`
     }
   }
   h2 {
-    margin: -7% 0% 8% 0%;
+    margin: -3% 0% 13% 0%;
     font-size: 0.9em;
     width: fit-content;
     font-weight: 500;
+    @media only screen and (max-width: 600px) {
+      margin: -3% 0% 10% 0%;
+    }
     mark {
       background: none;
       color: rgb(240, 240, 240);
