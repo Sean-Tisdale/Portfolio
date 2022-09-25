@@ -21,7 +21,7 @@ export const SCLink = styled(Link)`
   color: rgb(200, 200, 200);
   text-decoration: none;
   @media only screen and (max-width: 600px) {
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.96);
     color: rgba(250, 250, 250, 1);
     text-align: center;
     padding: 9%;
@@ -50,7 +50,7 @@ export const SCNavDisplay = styled.div`
   transition: all 0.5s ease-in-out;
 
   @media only screen and (max-width: 600px) {
-    margin-left: -43%;
+    margin-left: -42%;
     margin-top: 1.5%;
     font-size: 2.6em;
     border-radius: 8px;
