@@ -18,9 +18,8 @@ export const SCNavBarWrapper = styled.div`
 export const SCLink = styled(Link)`
   padding: 5%;
   cursor: pointer;
-  color: #ffffff;
+  color: rgb(200, 200, 200);
   text-decoration: none;
-
   @media only screen and (max-width: 600px) {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(250, 250, 250, 1);
@@ -28,13 +27,12 @@ export const SCLink = styled(Link)`
     padding: 9%;
     &:hover {
       background-color: rgba(0, 0, 0, 0.5);
-      text-shadow: 2px 2px 4px #000000;
     }
   }
 
   &:hover {
-    color: rgba(255, 255, 255, 0.7);
-    text-shadow: 2px 2px 4px #000000;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.1em;
   }
 `;
 
@@ -44,20 +42,24 @@ export const SCNavDisplay = styled.div`
   display: flex;
   flex-direction: column;
   position: fixed;
-  margin-left: -8%;
   text-align: right;
   font-size: 1.7em;
   font-weight: 600;
   color: #ffffff;
+  margin: 1%;
+  width: 10%;
   z-index: ${(props: INavBarProps) => (props.display ? "9" : "-9")};
   opacity: ${(props: INavBarProps) => (props.display ? "1" : "0")};
   transition: all 0.5s ease-in-out;
+
   @media only screen and (max-width: 600px) {
-    margin-left: -34%;
+    margin-left: -44%;
     margin-top: 1.5%;
     font-size: 2.6em;
     border-radius: 8px;
     overflow: hidden;
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
   }
 
   @media only screen and (min-width: 600px) {

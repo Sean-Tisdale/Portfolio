@@ -8,17 +8,9 @@ const LandingPage = () => {
           <div>Sean Tisdale</div>
           <span>Software Engineer</span>
           <p>
-            Passionate Front-End Developer currently interning at&nbsp;
-            <a
-              href="https://www.complexlabs.co/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Complex Labs
-            </a>
-            &nbsp;focusing on user experience. Problem solver eager to prove my
-            value and talent. Motivated to advance and expand my skill set
-            through new technologies and challenging projects
+            I&#39;m a Front End Developer specializing in building exceptional
+            digital experiences for both web and mobile platforms. Currently,
+            I&#39;m focused on building Blockchain based platforms.
           </p>
         </SCLeftBox>
         <img src="/images/headericon.svg" alt="Header Icon" />

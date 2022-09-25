@@ -1,25 +1,26 @@
-import { ComplexLabs } from "./Projects/ComplexLabs";
-import { NftPlatform } from "./Projects/NftPlatform";
-import { OpenseaClone } from "./Projects/OpenseaClone";
+import { ProfessionalProjects } from "./Projects/ProfessionalProjects";
+import { PersonalProjects } from "./Projects/PersonalProjects";
 
 import {
   SCContentWrapper,
   SCWorkPageWrapper,
-  SCWorkTypes,
+  SCWorkSections,
+  SCWorkType,
 } from "./WorkPage.styles";
 
 const WorkPage = () => {
   return (
     <SCWorkPageWrapper id="Work">
       <h1>Projects</h1>
-      <SCWorkTypes>
-        <span>Professional</span>
-        <span>Personal</span>
-      </SCWorkTypes>
       <SCContentWrapper>
-        <ComplexLabs />
-        <NftPlatform />
-        <OpenseaClone />
+        <SCWorkSections>
+          <SCWorkType>Professional</SCWorkType>
+          <ProfessionalProjects />
+        </SCWorkSections>
+        <SCWorkSections>
+          <SCWorkType>Personal</SCWorkType>
+          <PersonalProjects />
+        </SCWorkSections>
       </SCContentWrapper>
     </SCWorkPageWrapper>
   );

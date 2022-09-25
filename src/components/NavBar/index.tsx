@@ -1,11 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { SCLink, SCNavBarWrapper, SCNavDisplay } from "./NavBar.styles";
 
 const NavBar = () => {
   const [display, setDisplay] = useState<boolean>(false);
+  const [isMobile, setIsMobile] = useState<boolean>(false);
 
-  return (
+  useEffect(() => {
+    if (window.innerWidth <= 600) {
+      setIsMobile(true);
+    } else if (window.innerWidth >= 600) {
+      setIsMobile(false);
+    }
+
+    const updateMedia = () => {
+      if (window.innerWidth <= 600) {
+        setIsMobile(true);
+      } else if (window.innerWidth >= 600) {
+        setIsMobile(false);
+      }
+    };
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
+
+  return isMobile ? (
     <SCNavBarWrapper>
       <SCNavDisplay onMouseLeave={() => setDisplay(!display)} display={display}>
         <SCLink onTouchEnd={() => setDisplay(!display)} to="/">
@@ -27,6 +46,13 @@ const NavBar = () => {
         onMouseEnter={() => setDisplay(!display)}
       />
     </SCNavBarWrapper>
+  ) : (
+    <SCNavDisplay display={true}>
+      <SCLink to="/">Home</SCLink>
+      <SCLink to="/Work">Work</SCLink>
+      <SCLink to="/Skills">Skills</SCLink>
+      <SCLink to="/Contact">Contact</SCLink>
+    </SCNavDisplay>
   );
 };
 

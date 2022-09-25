@@ -36,7 +36,15 @@ const ContactPage = () => {
       <SCInnerWrapper>
         <SCContentWrapper>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="Resume">
-            <img src="/images/contact/resume.svg" alt="Resume" />
+            <img
+              style={{
+                backgroundColor: "#ffffff",
+                borderRadius: "8px",
+                padding: "5% 0% 5% 0%",
+              }}
+              src="/images/contact/resume.svg"
+              alt="Resume"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/sean-tisdale-72111b241/"
