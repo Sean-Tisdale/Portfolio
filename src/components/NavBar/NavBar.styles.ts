@@ -21,7 +21,7 @@ export const SCLink = styled(Link)`
   color: rgb(200, 200, 200);
   text-decoration: none;
   @media only screen and (max-width: 600px) {
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.98);
     color: rgba(250, 250, 250, 1);
     text-align: center;
     padding: 9%;
