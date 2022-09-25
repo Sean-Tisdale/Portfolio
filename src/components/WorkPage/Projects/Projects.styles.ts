@@ -10,7 +10,6 @@ export const SCCardWrapper = styled.div`
   background-color: #000000;
 
   @media only screen and (max-width: 600px) {
-    // height: 42%;
     width: 85%;
   }
   img {
@@ -105,7 +104,6 @@ export const SCInnerModal = styled.div`
       padding-bottom: 2%;
       margin-bottom: 10%;
       margin-top: 7%;
-      //margin-left: -2%;
       border-bottom: 2px solid rgb(220, 220, 220);
     }
     p {
@@ -126,12 +124,6 @@ export const SCInnerModal = styled.div`
       font-weight: 400;
     }
   }
-  /* h4 {
-    margin: 2% 4% -23% 0%;
-    font-size: 0.8em;
-    font-weight: 400;
-    align-self: flex-end;
-  } */
 
   img {
     height: 60%;

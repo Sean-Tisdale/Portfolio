@@ -28,7 +28,6 @@ export const SCContentWrapper = styled.div`
   justify-content: space-between;
   margin-bottom: 1%;
   margin-top: -10%;
-  //border: 2px solid white;
   overflow: hidden;
   @media only screen and (max-width: 600px) {
     width: 97%;
@@ -59,8 +58,6 @@ export const SCWorkSections = styled.div`
   height: 100%;
   width: 80%;
   gap: 5%;
-  // border: 1px solid red;
-  //overflow: scroll;
   @media only screen and (max-width: 600px) {
     width: 50%;
   }
