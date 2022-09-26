@@ -156,7 +156,7 @@ export const SCloseIcon = styled.div`
   @media only screen and (max-width: 600px) {
     height: 35px;
     width: 35px;
-    left: 8vw;
+    right: 8vw;
     top: 11vh;
   }
   &:hover {
