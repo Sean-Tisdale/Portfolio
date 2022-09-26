@@ -120,9 +120,40 @@ export const SCContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10%;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 1% 0% 2% 0%;
-
+  // border: 1px solid red;
+  img {
+    height: 55px;
+    width: 55px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  a {
+    &:nth-child(1) {
+      img {
+        padding: 6% 0% 6% 0%;
+      }
+    }
+    &:nth-child(2) {
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+    &:nth-child(3) {
+      img {
+        background-color: #5765f2;
+        padding: 5%;
+      }
+    }
+    &:nth-child(4) {
+      img {
+        padding: 3%;
+      }
+    }
+  }
   @media only screen and (max-width: 600px) {
     flex-direction: row;
     margin-top: -13%;
@@ -131,12 +162,8 @@ export const SCContentWrapper = styled.div`
     width: 95%;
     padding: 0% 0% 0% 0%;
     img {
-      height: 30px;
-      width: 30px;
+      /* height: 30px;
+      width: 30px; */
     }
-  }
-  img {
-    height: 55px;
-    width: 55px;
   }
 `;

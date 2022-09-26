@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 interface INavBarProps {
-  display: boolean;
+  display: string;
 }
 
 export const SCNavBarWrapper = styled.div`
@@ -35,7 +35,7 @@ export const SCLink = styled(Link)`
 
 export const SCNavDisplay = styled.div`
   visibility: ${(props: INavBarProps) =>
-    props.display ? "visible" : "hidden"};
+    props.display === "true" ? "visible" : "hidden"};
   display: flex;
   flex-direction: column;
   position: fixed;

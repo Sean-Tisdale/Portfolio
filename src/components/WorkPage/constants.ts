@@ -42,7 +42,8 @@ export const OpeanseaCloneData = {
   title: "Opensea Clone",
   iframeSrc: "",
   technology: `TypeScript, React, CSS, Axios, Web3 React, Ethers, Opensea.js`,
-  description: ``,
+  description: `Integrated the Opensea software development kit in the front end to retrieve nft data from Openseas' backend.  The functionality implemented in this project includes the ability to buy, sell, & bid on non fungible tokens.  Utilized Ethers.js to convert nft price from Wei to USD.
+  `,
   href: "https://github.com/Sean-Tisdale/OpenSea-Clone",
   innerImageSrc: "/images/work/openseainnerimage.png",
 };

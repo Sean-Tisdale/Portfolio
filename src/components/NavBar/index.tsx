@@ -31,7 +31,7 @@ const NavBar = () => {
 
   return isMobile ? (
     <SCNavBarWrapper>
-      <SCNavDisplay display={display}>
+      <SCNavDisplay display={display.toString()}>
         <SCLink onTouchEnd={() => setDisplay(false)} to="/">
           Home
         </SCLink>
@@ -48,7 +48,7 @@ const NavBar = () => {
       <RiMenuFill fontSize={45} onTouchEnd={() => setDisplay(true)} />
     </SCNavBarWrapper>
   ) : (
-    <SCNavDisplay display={true}>
+    <SCNavDisplay display={"true"}>
       <SCLink
         style={{
           color: navSelector === "/" ? "#af00af" : "",

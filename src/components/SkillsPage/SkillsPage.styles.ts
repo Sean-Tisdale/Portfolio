@@ -70,7 +70,7 @@ export const SCSkillsCard = styled.div`
   align-items: center;
   justify-content: center;
   width: 42%;
-  height: 14%;
+  height: 13%;
   border-radius: 12px;
   margin-bottom: 6%;
   font-size: 2.6em;

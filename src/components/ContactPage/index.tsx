@@ -36,15 +36,7 @@ const ContactPage = () => {
       <SCInnerWrapper>
         <SCContentWrapper>
           <a href="/Resume.pdf" target="_blank" rel="noreferrer" title="Resume">
-            <img
-              style={{
-                backgroundColor: "#ffffff",
-                borderRadius: "8px",
-                padding: "6% 0% 6% 0%",
-              }}
-              src="/images/contact/resume.svg"
-              alt="Resume"
-            />
+            <img src="/images/contact/resume.svg" alt="Resume" />
           </a>
           <a
             href="https://www.linkedin.com/in/sean-tisdale-72111b241/"
@@ -52,11 +44,7 @@ const ContactPage = () => {
             rel="noreferrer"
             title="Linkedin"
           >
-            <img
-              style={{ backgroundColor: "#ffffff", borderRadius: "8px" }}
-              src="/images/contact/linkedin.svg"
-              alt="Linkedin"
-            />
+            <img src="/images/contact/linkedin.svg" alt="Linkedin" />
           </a>
           <a
             href="https://discordapp.com/users/8655"
@@ -72,11 +60,7 @@ const ContactPage = () => {
             rel="noreferrer"
             title="Github"
           >
-            <img
-              style={{ backgroundColor: "#ffffff", borderRadius: "50%" }}
-              src="/images/contact/github.png"
-              alt="Github"
-            />
+            <img src="/images/contact/github.png" alt="Github" />
           </a>
         </SCContentWrapper>
         <form onSubmit={handleSubmit(onSubmit)}>

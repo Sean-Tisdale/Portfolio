@@ -22,7 +22,7 @@ export function PersonalCard({
     <SCCardWrapper key={title}>
       <img alt={title} src={imageSrc} onClick={() => setDisplay(true)} />
       <SCTitle onClick={() => setDisplay(true)}>{title}</SCTitle>
-      <SCModal display={display} key={title}>
+      <SCModal display={display.toString()} key={title}>
         <SCloseIcon onClick={() => setDisplay(false)}>
           <RiCloseLine color="rgb(240, 240, 240)" fontSize={38} />
         </SCloseIcon>

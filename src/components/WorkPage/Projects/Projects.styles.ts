@@ -41,8 +41,8 @@ export const SCTitle = styled.div`
 `;
 
 export const SCModal = styled.div`
-  display: ${(props: { display: boolean }) =>
-    props.display ? "flex" : "none"};
+  display: ${(props: { display: string }) =>
+    props.display === "true" ? "flex" : "none"};
   background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
   height: 100vh;
@@ -59,9 +59,9 @@ export const SCModal = styled.div`
 
 export const SCInnerModal = styled.div`
   margin-top: 5%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   height: 90%;
-  width: 70%;
+  width: 60%;
   background-color: #000000;
   border-radius: 10px;
   overflow: hidden;
@@ -80,7 +80,7 @@ export const SCInnerModal = styled.div`
     }
   }
   img {
-    height: 50%;
+    height: 55%;
     width: 90%;
     border: none;
     margin-left: 5%;
@@ -91,7 +91,7 @@ export const SCInnerModal = styled.div`
   div {
     display: flex;
     flex-direction: row;
-    height: 50%;
+    height: 45%;
     border-top: 2px solid rgba(150, 150, 150, 0.7);
     @media only screen and (max-width: 600px) {
       font-size: 1.1em;
@@ -149,8 +149,8 @@ export const SCloseIcon = styled.div`
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 11vw;
-  top: 8vh;
+  right: 15vw;
+  top: 7vh;
   background-color: #000000;
 
   @media only screen and (max-width: 600px) {
