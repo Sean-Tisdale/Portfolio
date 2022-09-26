@@ -6,7 +6,6 @@ import {
 } from "./SkillsPage.styles";
 
 interface ISkillsPageProps {
-  key: string;
   skill: string;
 }
 
@@ -16,7 +15,7 @@ const SkillsPage = () => {
       <h1>Tools &#38; Technologies</h1>
       <SCCardWrapper>
         {SkillsData?.map((data: ISkillsPageProps) => (
-          <SCSkillsCard key={data?.key}>
+          <SCSkillsCard key={data?.skill}>
             <span>{data?.skill}</span>
           </SCSkillsCard>
         ))}

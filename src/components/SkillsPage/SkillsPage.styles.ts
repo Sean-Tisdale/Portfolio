@@ -42,13 +42,14 @@ export const SCCardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 75%;
+  height: 80%;
   @media only screen and (max-width: 600px) {
     width: 100%;
     height: 66vh;
     padding-bottom: 10%;
     margin-top: -1%;
     flex-wrap: nowrap;
+    overflow: scroll;
   }
 
   @media only screen and (min-width: 600px) {
@@ -69,11 +70,11 @@ export const SCSkillsCard = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 42%;
-  height: 13%;
+  width: 26%;
+  height: 10%;
   border-radius: 12px;
-  margin-bottom: 6%;
-  font-size: 2.6em;
+  margin-bottom: 4%;
+  font-size: 1.6em;
   font-weight: 600;
   color: rgb(220, 220, 220);
   background-color: rgba(0, 0, 0, 0.75);

@@ -68,6 +68,7 @@ const ContactPage = () => {
             Name
             <input
               type="text"
+              maxLength={60}
               placeholder="Name"
               {...register("name", { required: true })}
             />
@@ -77,6 +78,7 @@ const ContactPage = () => {
             <input
               type="email"
               placeholder="Email"
+              maxLength={60}
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -90,6 +92,7 @@ const ContactPage = () => {
           <label>
             Message
             <textarea
+              maxLength={500}
               placeholder="Message"
               {...register("message", { required: true })}
             />
