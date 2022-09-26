@@ -120,10 +120,9 @@ export const SCContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 1% 0% 2% 0%;
-  // border: 1px solid red;
   img {
     height: 55px;
     width: 55px;
@@ -162,8 +161,8 @@ export const SCContentWrapper = styled.div`
     width: 95%;
     padding: 0% 0% 0% 0%;
     img {
-      /* height: 30px;
-      width: 30px; */
+      height: 45px;
+      width: 45px;
     }
   }
 `;
