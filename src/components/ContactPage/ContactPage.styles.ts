@@ -164,5 +164,13 @@ export const SCContentWrapper = styled.div`
       height: 45px;
       width: 45px;
     }
+    a {
+      &:nth-child(2) {
+        img {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
   }
 `;
