@@ -30,7 +30,12 @@ export function ProfessionalCard({
             <RiCloseLine color="rgb(240, 240, 240)" fontSize={38} />
           </SCloseIcon>
           <SCInnerModal>
-            <a href={href} target="_blank" rel="noreferrer" title={title}>
+            <a
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+              title="View on Github"
+            >
               <img src={innerImageSrc} alt={title} />
             </a>
             <div>
