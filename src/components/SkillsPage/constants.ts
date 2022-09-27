@@ -9,7 +9,7 @@ export const SkillsData = [
   { skill: "Styled Components" },
   { skill: "Axios" },
   { skill: "Ethers" },
-  { skill: "React Hook Form" },
+  { skill: "Git" },
   { skill: "Moralis" },
   { skill: "Hardhat" },
   { skill: "Typechain" },
