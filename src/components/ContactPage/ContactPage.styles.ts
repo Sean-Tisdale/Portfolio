@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ToastContainer } from "react-toastify";
 
 export const SCContactPageWrapper = styled.div`
   height: 100vh;
@@ -24,6 +25,10 @@ export const SCContactPageWrapper = styled.div`
       width: 90%;
       margin-top: 10%;
     }
+  }
+  span {
+    font-size: 0.5em;
+    margin-bottom: -5%;
   }
   input {
     height: 5vh;
@@ -172,5 +177,29 @@ export const SCContentWrapper = styled.div`
         }
       }
     }
+  }
+`;
+
+export const StyledToastContainer = styled(ToastContainer)`
+  &&&.Toastify__toast-container {
+  }
+  .Toastify__toast {
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(220, 220, 220);
+    background-color: #000000;
+    text-align: center;
+    font-size: 1.2em;
+    width: 25vw;
+    margin-left: -4%;
+    border-radius: 12px;
+    @media only screen and (max-width: 600px) {
+      width: 60%;
+      margin-left: auto;
+    }
+  }
+  .Toastify__toast-body {
+    color: #ffffff;
   }
 `;
