@@ -14,7 +14,7 @@ export const ComplexData = {
   title: "Complex Labs",
   href: "https://www.complexlabs.co/",
   innerImageSrc: "/images/work/complexlogo.svg",
-  role: "Front End Developer",
+  role: "Front End Engineer",
   technology: `TypeScript, Next.js, Redux, CSS, React Hook Form, Styled
     Components, Axios`,
   description: `Implementing user interface designs in the front end.
