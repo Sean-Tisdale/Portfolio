@@ -12,19 +12,6 @@ export const SCSkillsPageWrapper = styled.div`
     height: 100%;
     padding-top: 10%;
   }
-
-  @media only screen and (min-width: 600px) {
-  }
-
-  @media only screen and (min-width: 768px) {
-  }
-
-  @media only screen and (min-width: 992px) {
-  }
-
-  @media only screen and (min-width: 1200px) {
-  }
-
   h1 {
     font-size: 4em;
     color: rgb(250, 250, 250);
@@ -50,18 +37,6 @@ export const SCCardWrapper = styled.div`
     margin-top: -1%;
     flex-wrap: nowrap;
     overflow: scroll;
-  }
-
-  @media only screen and (min-width: 600px) {
-  }
-
-  @media only screen and (min-width: 768px) {
-  }
-
-  @media only screen and (min-width: 992px) {
-  }
-
-  @media only screen and (min-width: 1200px) {
   }
 `;
 
