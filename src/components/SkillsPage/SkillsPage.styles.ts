@@ -34,7 +34,7 @@ export const SCCardWrapper = styled.div`
     width: 100%;
     height: 66vh;
     padding-bottom: 10%;
-    padding-top: 80%;
+    padding-top: 90%;
     margin-top: -1%;
     flex-wrap: nowrap;
     overflow: scroll;
@@ -57,7 +57,7 @@ export const SCSkillsCard = styled.div`
   border: 3.5px solid rgba(255, 255, 255, 0.3);
   @media only screen and (max-width: 600px) {
     width: 90%;
-    min-height: 12%;
+    min-height: 11%;
     font-size: 2.2em;
     border: 3px solid rgba(255, 255, 255, 0.3);
   }
