@@ -50,36 +50,28 @@ const NavBar = () => {
   ) : (
     <SCNavDisplay display={"true"}>
       <SCLink
-        style={{
-          color: navSelector === "/" ? "#af00af" : "",
-        }}
+        navSelector={navSelector}
         onClick={() => setNavSelector("/")}
         to="/"
       >
         Home
       </SCLink>
       <SCLink
-        style={{
-          color: navSelector === "/Work" ? "#af00af" : "",
-        }}
+        navSelector={navSelector}
         onClick={() => setNavSelector("/Work")}
         to="/Work"
       >
         Work
       </SCLink>
       <SCLink
-        style={{
-          color: navSelector === "/Skills" ? "#af00af" : "",
-        }}
+        navSelector={navSelector}
         onClick={() => setNavSelector("/Skills")}
         to="/Skills"
       >
         Skills
       </SCLink>
       <SCLink
-        style={{
-          color: navSelector === "/Contact" ? "#af00af" : "",
-        }}
+        navSelector={navSelector}
         onClick={() => setNavSelector("/Contact")}
         to="/Contact"
       >

@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 interface INavBarProps {
-  display: string;
+  display?: string;
+  navSelector?: string;
 }
 
 export const SCNavBarWrapper = styled.div`
@@ -26,9 +27,24 @@ export const SCLink = styled(Link)`
     text-align: center;
     padding: 9%;
   }
-
+  &:nth-child(1) {
+    color: ${(props: INavBarProps) =>
+      props.navSelector === "/" ? "#af00af" : ""};
+  }
+  &:nth-child(2) {
+    color: ${(props: INavBarProps) =>
+      props.navSelector === "/Work" ? "#af00af" : ""};
+  }
+  &:nth-child(3) {
+    color: ${(props: INavBarProps) =>
+      props.navSelector === "/Skills" ? "#af00af" : ""};
+  }
+  &:nth-child(4) {
+    color: ${(props: INavBarProps) =>
+      props.navSelector === "/Contact" ? "#af00af" : ""};
+  }
   &:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(193, 73, 193, 0.653);
     font-size: 1.1em;
   }
 `;
@@ -56,17 +72,5 @@ export const SCNavDisplay = styled.div`
     border-radius: 8px;
     overflow: hidden;
     width: 40%;
-  }
-
-  @media only screen and (min-width: 600px) {
-  }
-
-  @media only screen and (min-width: 768px) {
-  }
-
-  @media only screen and (min-width: 992px) {
-  }
-
-  @media only screen and (min-width: 1200px) {
   }
 `;
